@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/EleveA/Scenes/SampleScene.unity
+- path: Assets/EleveC/Scenes/Romain.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
