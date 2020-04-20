@@ -9,9 +9,9 @@ public class SelectionFeedback : MonoBehaviour
 
     public Vector3 size;
 
-    [Header("Materials Prefs")]
-    public Material normalMaterial;
-    [SerializeField] private Material selectMaterial;
+    //[Header("Materials Prefs")]
+    //public Material normalMaterial;
+    //[SerializeField] private Material selectMaterial;
 
 
     private void Start()
@@ -28,12 +28,14 @@ public class SelectionFeedback : MonoBehaviour
     {
         if (isHovered)
         {
-            transform.GetComponent<Renderer>().material = selectMaterial;
+            //transform.GetComponent<Renderer>().material = selectMaterial;
+            GetComponent<Renderer>().material.SetFloat("_Outline", 0.02f);
         }
 
         else if (!isHovered)
         {
-            transform.GetComponent<Renderer>().material = normalMaterial;
+            //transform.GetComponent<Renderer>().material = normalMaterial;
+            GetComponent<Renderer>().material.SetFloat("_Outline", 0);
         }
     }
 }

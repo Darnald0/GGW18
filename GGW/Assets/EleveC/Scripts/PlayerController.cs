@@ -31,7 +31,7 @@ public class PlayerController : MonoBehaviour
     void Update()
     {
             Move();
-            Crouch();
+            // Crouch();
 
             transform.localScale = new Vector3(1, sizeY, 1);
     }

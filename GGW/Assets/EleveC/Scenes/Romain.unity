@@ -150,11 +150,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 73909629}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1.57, z: 4.31}
+  m_LocalPosition: {x: 0, y: 0.279, z: 5.551}
   m_LocalScale: {x: 0.32005405, y: 0.32005405, z: 0.32005405}
   m_Children: []
   m_Father: {fileID: 260581979}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!135 &73909631
 SphereCollider:
@@ -187,7 +187,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: ac212ee0ac5be61459bd5da60d321e1f, type: 2}
+  - {fileID: 2100000, guid: 990c809eaba75e2488d9a7b6d6e9886b, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -230,8 +230,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isHovered: 0
   size: {x: 0, y: 0, z: 0}
-  normalMaterial: {fileID: 2100000, guid: 2dee1c621f3295f4f8a6bef43afa9196, type: 2}
-  selectMaterial: {fileID: 2100000, guid: 89b4625c2ab10b64dba0ef33f39b70b1, type: 2}
 --- !u!54 &73909635
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -263,7 +261,7 @@ GameObject:
   - component: {fileID: 205022040}
   - component: {fileID: 205022039}
   m_Layer: 0
-  m_Name: Balle (1)
+  m_Name: 'Balle '
   m_TagString: Prop
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -297,8 +295,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isHovered: 0
   size: {x: 0, y: 0, z: 0}
-  normalMaterial: {fileID: 2100000, guid: 2dee1c621f3295f4f8a6bef43afa9196, type: 2}
-  selectMaterial: {fileID: 2100000, guid: 89b4625c2ab10b64dba0ef33f39b70b1, type: 2}
 --- !u!54 &205022040
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -346,7 +342,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: ac212ee0ac5be61459bd5da60d321e1f, type: 2}
+  - {fileID: 2100000, guid: 990c809eaba75e2488d9a7b6d6e9886b, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -494,8 +490,8 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 73909630}
   - {fileID: 1791108032}
+  - {fileID: 73909630}
   - {fileID: 205022038}
   - {fileID: 1079329979}
   m_Father: {fileID: 0}
@@ -937,7 +933,7 @@ GameObject:
   - component: {fileID: 1079329981}
   - component: {fileID: 1079329980}
   m_Layer: 0
-  m_Name: Balle (2)
+  m_Name: Balle
   m_TagString: Prop
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -971,8 +967,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isHovered: 0
   size: {x: 0, y: 0, z: 0}
-  normalMaterial: {fileID: 2100000, guid: 2dee1c621f3295f4f8a6bef43afa9196, type: 2}
-  selectMaterial: {fileID: 2100000, guid: 89b4625c2ab10b64dba0ef33f39b70b1, type: 2}
 --- !u!54 &1079329981
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1020,7 +1014,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: ac212ee0ac5be61459bd5da60d321e1f, type: 2}
+  - {fileID: 2100000, guid: 990c809eaba75e2488d9a7b6d6e9886b, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1414,7 +1408,7 @@ Transform:
   m_LocalScale: {x: 1, y: 0.70944, z: 0.82481}
   m_Children: []
   m_Father: {fileID: 260581979}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &1791108033
 BoxCollider:
