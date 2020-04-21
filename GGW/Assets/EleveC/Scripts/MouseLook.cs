@@ -85,12 +85,12 @@ public class MouseLook : MonoBehaviour
 
                 ShowInteractHUD("Interact : " + hit.transform.name);
 
-                //--- Pour prendre un objet (si le script Inventory est mis ---//
+                //--- Pour prendre un objet ---//
 
-                //if (Input.GetKeyDown(KeyCode.F))
-                //{
-                //    playerBody.GetComponent<Inventory>().PickUp(selection.gameObject);
-                //}
+                if (Input.GetKeyDown(KeyCode.F))
+                {
+                    playerBody.GetComponent<Inventory>().PickUp(selection.gameObject);
+                }
             }
 
             Debug.DrawLine(ray.origin, hit.point, Color.red);

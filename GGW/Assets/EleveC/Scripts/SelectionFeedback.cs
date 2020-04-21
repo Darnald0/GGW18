@@ -29,6 +29,7 @@ public class SelectionFeedback : MonoBehaviour
         if (isHovered)
         {
             //transform.GetComponent<Renderer>().material = selectMaterial;
+            Debug.Log("HOVER");
             GetComponent<Renderer>().material.SetFloat("_Outline", 0.02f);
         }
 
