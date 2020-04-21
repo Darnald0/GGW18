@@ -187,7 +187,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 990c809eaba75e2488d9a7b6d6e9886b, type: 2}
+  - {fileID: 2100000, guid: 2aee4cd6b11cb9246a16a3f9f047000e, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -230,6 +230,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isHovered: 0
   size: {x: 0, y: 0, z: 0}
+  hoverMat: {fileID: 2100000, guid: 2aee4cd6b11cb9246a16a3f9f047000e, type: 2}
 --- !u!54 &73909635
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -295,6 +296,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isHovered: 0
   size: {x: 0, y: 0, z: 0}
+  hoverMat: {fileID: 2100000, guid: 2aee4cd6b11cb9246a16a3f9f047000e, type: 2}
 --- !u!54 &205022040
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -342,7 +344,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 990c809eaba75e2488d9a7b6d6e9886b, type: 2}
+  - {fileID: 2100000, guid: 2aee4cd6b11cb9246a16a3f9f047000e, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1383,6 +1385,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isHovered: 0
   size: {x: 0, y: 0, z: 0}
+  hoverMat: {fileID: 2100000, guid: 2aee4cd6b11cb9246a16a3f9f047000e, type: 2}
 --- !u!54 &1079329981
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1430,7 +1433,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 990c809eaba75e2488d9a7b6d6e9886b, type: 2}
+  - {fileID: 2100000, guid: 2aee4cd6b11cb9246a16a3f9f047000e, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
