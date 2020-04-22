@@ -23,6 +23,8 @@ public class PlayerController : MonoBehaviour
 
     private float sizeY;
 
+    public GameObject pauseMenu;
+
     void Start()
     {
         sizeY = transform.localScale.y;
@@ -32,8 +34,16 @@ public class PlayerController : MonoBehaviour
     {
             Move();
             // Crouch();
-
+                
             transform.localScale = new Vector3(1, sizeY, 1);
+
+        if(Input.GetKeyDown(KeyCode.Escape))
+        {
+            Time.timeScale = 0.0f;
+            pauseMenu.SetActive(true);
+            Cursor.lockState = CursorLockMode.None;
+            Cursor.visible = true;
+        }
     }
 
     void Move()

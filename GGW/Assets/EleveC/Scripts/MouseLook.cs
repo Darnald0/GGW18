@@ -35,7 +35,6 @@ public class MouseLook : MonoBehaviour
         {
             interactHud.SetActive(false);
         }
-
     }
 
     // Update is called once per frame
@@ -81,7 +80,7 @@ public class MouseLook : MonoBehaviour
                     hit.transform.GetComponent<SelectionFeedback>().isHovered = true;
                 }
 
-                Debug.Log("Facing : " + hit.transform.name);
+                //Debug.Log("Facing : " + hit.transform.name);
 
                 ShowInteractHUD("Interact : " + hit.transform.name);
 
@@ -90,6 +89,17 @@ public class MouseLook : MonoBehaviour
                 if (Input.GetKeyDown(KeyCode.F))
                 {
                     playerBody.GetComponent<Inventory>().PickUp(selection.gameObject);
+                }
+            }
+
+            if (Input.GetMouseButtonDown(0))
+            {
+                GameObject gotAnIngredientInHand = playerBody.transform.Find("Hand").transform.GetChild(0).gameObject;
+                if (selection.CompareTag("IngredientContainer") && gotAnIngredientInHand.tag == selectableTag)
+                {
+                    MakeDrug.ingredientInContainer.Add(gotAnIngredientInHand);
+                    Inventory.instance.DestroyHand();
+                    MakeDrug.instance.CheckContent();
                 }
             }
 
