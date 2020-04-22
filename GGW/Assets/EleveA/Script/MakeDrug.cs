@@ -5,7 +5,7 @@ using UnityEngine;
 public class MakeDrug : MonoBehaviour
 {
     public static MakeDrug instance;
-    public static List<GameObject> ingredientInContainer = new List<GameObject>();
+    public List<GameObject> ingredientInContainer = new List<GameObject>();
 
     public GameObject IngredientA;
     public GameObject IngredientB;
@@ -20,29 +20,29 @@ public class MakeDrug : MonoBehaviour
 
     public void CheckContent()
     {
-        Debug.Log("check");
-        if(ingredientInContainer.Count == 2)
+        if (ingredientInContainer.Count == 2)
         {
-            Debug.Log("=2");
-            if (ingredientInContainer[0] == IngredientA && ingredientInContainer[1] == IngredientC)
+            Debug.Log(ingredientInContainer.Count);
+            Debug.Log(ingredientInContainer[1]);
+            if (ingredientInContainer[0] == IngredientA && ingredientInContainer[1] == IngredientC || ingredientInContainer[1] == IngredientA && ingredientInContainer[0] == IngredientC)
             {
                 mix = 1;
                 ingredientInContainer.Clear();
                 ChangeTrip();
             }
-            if (ingredientInContainer[0] == IngredientA && ingredientInContainer[1] == IngredientD)
+            if (ingredientInContainer[0] == IngredientA && ingredientInContainer[1] == IngredientD || ingredientInContainer[1] == IngredientA && ingredientInContainer[0] == IngredientD)
             {
                 mix = 2;
                 ingredientInContainer.Clear();
                 ChangeTrip();
             }
-            if (ingredientInContainer[0] == IngredientB && ingredientInContainer[1] == IngredientC)
+            if (ingredientInContainer[0] == IngredientB && ingredientInContainer[1] == IngredientC || ingredientInContainer[1] == IngredientA && ingredientInContainer[0] == IngredientD)
             {
                 mix = 3;
                 ingredientInContainer.Clear();
                 ChangeTrip();
             }
-            if (ingredientInContainer[0] == IngredientB && ingredientInContainer[1] == IngredientD)
+            if (ingredientInContainer[0] == IngredientB && ingredientInContainer[1] == IngredientD || ingredientInContainer[1] == IngredientA && ingredientInContainer[0] == IngredientD)
             {
                 mix = 4;
                 ingredientInContainer.Clear();
@@ -60,6 +60,7 @@ public class MakeDrug : MonoBehaviour
                 ChangeTrip();
             }
         }
+        Debug.Log(ingredientInContainer[0]);
     }
 
     public void ChangeTrip()

@@ -97,9 +97,10 @@ public class MouseLook : MonoBehaviour
                 GameObject gotAnIngredientInHand = playerBody.transform.Find("Hand").transform.GetChild(0).gameObject;
                 if (selection.CompareTag("IngredientContainer") && gotAnIngredientInHand.tag == selectableTag)
                 {
-                    MakeDrug.ingredientInContainer.Add(gotAnIngredientInHand);
+                    MakeDrug.instance.ingredientInContainer.Add(gotAnIngredientInHand);
                     Inventory.instance.DestroyHand();
                     MakeDrug.instance.CheckContent();
+                    Debug.Log(MakeDrug.instance.ingredientInContainer[0]);
                 }
             }
 
