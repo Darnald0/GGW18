@@ -8,14 +8,20 @@ public class MoveAtoB : MonoBehaviour
     [SerializeField] private Transform pointB;
     [SerializeField] private float speed = 2;
 
+    [SerializeField] private float beforeDestroy;
+
     public bool isActive;
+
+    private bool alreadyLaunched;
+    private Material monsterMat;
 
 
 
     // Start is called before the first frame update
     void Start()
     {
-        transform.position = pointA.position;
+        monsterMat = GetComponentInChildren<Renderer>().material;
+        StartCoroutine(Cooldown());
     }
 
     // Update is called once per frame
@@ -24,23 +30,45 @@ public class MoveAtoB : MonoBehaviour
         if (isActive)
         {
         Move();
+        CheckPos();
         }
 
-        CheckPos();
     }
 
     void Move()
     {
-        Vector3 dir = (pointA.position - pointB.position).normalized;
+        Vector3 dir = (pointB.position - pointA.position).normalized;
+
+        monsterMat.SetFloat("isInactive", 1.0f);
 
         transform.position = Vector3.MoveTowards(transform.position, dir, speed * Time.deltaTime);
+
+        if (!alreadyLaunched)
+        {
+            StartCoroutine(AutoDestruct());
+            alreadyLaunched = true;
+        }
+
     }
 
     void CheckPos()
     {
-        if(transform.position == pointA.position)
+        if(transform.position == pointB.position)
         {
             Debug.Log(transform.name + " has arrived");
         }
+    }
+
+    IEnumerator Cooldown()
+    {
+        monsterMat.SetFloat("isInactive", 1.0f);
+        yield return new WaitForSeconds(4);
+        monsterMat.SetFloat("isInactive", 0.0f);
+    }
+
+    IEnumerator AutoDestruct()
+    {
+        yield return new WaitForSeconds(beforeDestroy);
+        Destroy(this.gameObject);
     }
 }
