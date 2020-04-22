@@ -19,6 +19,7 @@ public class Inventory : MonoBehaviour
 
     private float handScale;
 
+    [SerializeField] private GameObject container;
     private void Awake()
     {
         instance = this;
@@ -73,6 +74,14 @@ public class Inventory : MonoBehaviour
         toDrop.transform.position = dropZone.transform.position;
         toDrop.GetComponent<Rigidbody>().velocity = Vector3.zero;
         toDrop.GetComponentInChildren<Collider>().enabled = true;
+    }
+
+    public void PutInContainer(GameObject toAdd)
+    {
+        inHand = null;
+
+        toAdd.transform.parent = container.transform;
+        toAdd.SetActive(false);
     }
 
     public void DestroyHand()

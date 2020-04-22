@@ -23,6 +23,7 @@ public class MouseLook : MonoBehaviour
 
     [HideInInspector] public bool visionLock = false;
 
+
     private void Start()
     {
         //--- Pour lock le curseur dans l'écran ---//
@@ -97,10 +98,11 @@ public class MouseLook : MonoBehaviour
                 GameObject gotAnIngredientInHand = playerBody.transform.Find("Hand").transform.GetChild(0).gameObject;
                 if (selection.CompareTag("IngredientContainer") && gotAnIngredientInHand.tag == selectableTag)
                 {
-                    MakeDrug.instance.ingredientInContainer.Add(gotAnIngredientInHand);
-                    Inventory.instance.DestroyHand();
-                    MakeDrug.instance.CheckContent();
-                    Debug.Log(MakeDrug.instance.ingredientInContainer[0]);
+                    hit.transform.GetComponent<MakeDrug>().AddIngredient(gotAnIngredientInHand);
+                    //gotAnIngredientInHand.GetComponent<Collider>().transform.SetParent(hit.transform);
+                    Inventory.instance.PutInContainer(gotAnIngredientInHand);
+                    hit.transform.GetComponent<MakeDrug>().CheckContent();
+                    
                 }
             }
 
