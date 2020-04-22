@@ -4,6 +4,18 @@ using UnityEngine;
 
 public class EventTrigger : MonoBehaviour
 {
+    enum EventType
+    {
+        Anim,
+        Sound,
+    }
+
+    [SerializeField] private EventType eventType;
+
+    [Header("Anim Setup")]
+    [SerializeField] private GameObject toLaunch;
+
+
     // Start is called before the first frame update
     void Start()
     {
@@ -27,7 +39,11 @@ public class EventTrigger : MonoBehaviour
     {
         Debug.Log("Launching Event");
 
-        // Lancer une animation
+        if(eventType == EventType.Anim)
+        {
+            //--- Lancer une animation ---//
+            toLaunch.GetComponent<MoveAtoB>().isActive = true;
+        }
     }
 
 }
