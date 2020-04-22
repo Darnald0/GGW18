@@ -13,12 +13,13 @@ public class SelectionFeedback : MonoBehaviour
     //[Header("Materials Prefs")]
     //public Material normalMaterial;
     //[SerializeField] private Material selectMaterial;
-    public Material hoverMat;
+    private Material hoverMat;
 
 
     private void Start()
     {
         size = transform.localScale;
+        hoverMat = GetComponent<Renderer>().material;
     }
 
     void Update()
@@ -30,15 +31,13 @@ public class SelectionFeedback : MonoBehaviour
     {
         if (isHovered)
         {
-            //transform.GetComponent<Renderer>().material = selectMaterial;
             Debug.Log("HOVER");
-            hoverMat.SetFloat("Boolean_9D67F661", 1.0f);
+            hoverMat.SetFloat("isHoverBool", 1.0f);
         }
 
         else if (!isHovered)
         {
-            //transform.GetComponent<Renderer>().material = normalMaterial;
-            hoverMat.SetFloat("Boolean_9D67F661", 0.0f);
+            hoverMat.SetFloat("isHoverBool", 0.0f);
         }
     }
 }

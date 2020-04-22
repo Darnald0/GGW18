@@ -13,143 +13,59 @@ Cmd: preprocess
 Cmd: preprocess
   insize=811 outsize=209 ok=1
 Cmd: preprocess
-  insize=3792 outsize=435 ok=1
+  insize=811 outsize=209 ok=1
 Cmd: preprocess
-  insize=4670 outsize=428 ok=1
-Cmd: preprocess
-  insize=4346 outsize=433 ok=1
-Cmd: preprocess
-  insize=55884 outsize=2637 ok=1
+  insize=811 outsize=209 ok=1
 Cmd: preprocess
   insize=811 outsize=209 ok=1
 Cmd: preprocess
   insize=811 outsize=209 ok=1
 Cmd: preprocess
-  insize=3495 outsize=484 ok=1
+  insize=811 outsize=209 ok=1
 Cmd: preprocess
-  insize=3510 outsize=484 ok=1
+  insize=811 outsize=209 ok=1
 Cmd: preprocess
-  insize=3452 outsize=425 ok=1
+  insize=811 outsize=209 ok=1
 Cmd: preprocess
-  insize=3821 outsize=435 ok=1
+  insize=811 outsize=209 ok=1
 Cmd: preprocess
-  insize=56069 outsize=2637 ok=1
+  insize=811 outsize=209 ok=1
 Cmd: preprocess
-  insize=4699 outsize=428 ok=1
+  insize=811 outsize=209 ok=1
+Cmd: preprocess
+  insize=811 outsize=209 ok=1
+Cmd: preprocess
+  insize=5816 outsize=652 ok=1
+Cmd: preprocess
+  insize=5500 outsize=648 ok=1
+Cmd: preprocess
+  insize=4980 outsize=651 ok=1
+Cmd: preprocess
+  insize=4656 outsize=656 ok=1
+Cmd: preprocess
+  insize=3687 outsize=651 ok=1
+Cmd: preprocess
+  insize=3792 outsize=657 ok=1
+Cmd: preprocess
+  insize=4611 outsize=658 ok=1
+Cmd: preprocess
+  insize=5296 outsize=660 ok=1
+Cmd: preprocess
+  insize=67185 outsize=3014 ok=1
+Cmd: preprocess
+  insize=7640 outsize=647 ok=1
+Cmd: preprocess
+  insize=69868 outsize=3013 ok=1
 Cmd: compileSnippet
-  api=4 type=0 insize=8893 outsize=1026 kw=UNITY_PASS_SHADOWCASTER pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR ok=1
-Cmd: preprocess
-  insize=3510 outsize=484 ok=1
-Cmd: preprocess
-  insize=3879 outsize=493 ok=1
-Cmd: preprocess
-  insize=56127 outsize=2695 ok=1
-Cmd: preprocess
-  insize=4757 outsize=486 ok=1
-Cmd: compileSnippet
-  error: 1 plat 4 at (103): 'TransformObjectToWorld': implicit truncation of vector type\nCompiling Vertex program
-Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR
-  api=4 type=0 insize=4605 outsize=878 kw= pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR ok=1
-Cmd: compileSnippet
-  api=4 type=0 insize=8893 outsize=1026 kw=UNITY_PASS_SHADOWCASTER pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR ok=1
-Cmd: compileSnippet
-  error: 1 plat 4 at Packages/com.unity.render-pipelines.universal/Editor/ShaderGraph/Includes/PBRForwardPass.hlsl(18): Output value 'vert' is not completely initialized\nCompiling Vertex program with _ADDITIONAL_LIGHTS
-Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR
-  api=4 type=0 insize=15126 outsize=2286 kw=_ADDITIONAL_LIGHTS pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR ok=1
-Cmd: compileSnippet
-  api=4 type=1 insize=15126 outsize=4498 kw=_ADDITIONAL_LIGHTS pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR ok=1
-Cmd: preprocess
-  insize=3452 outsize=425 ok=1
-Cmd: preprocess
-  insize=3821 outsize=435 ok=1
-Cmd: preprocess
-  insize=56069 outsize=2637 ok=1
-Cmd: preprocess
-  insize=4699 outsize=428 ok=1
-Cmd: compileSnippet
-  error: 1 plat 4 at Packages/com.unity.render-pipelines.universal/Editor/ShaderGraph/Includes/PBRForwardPass.hlsl(18): Output value 'vert' is not completely initialized\nCompiling Vertex program with _ADDITIONAL_LIGHTS
-Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR
-  api=4 type=0 insize=15126 outsize=2286 kw=_ADDITIONAL_LIGHTS pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR ok=1
-Cmd: compileSnippet
-  api=4 type=1 insize=15126 outsize=4498 kw=_ADDITIONAL_LIGHTS pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR ok=1
-Cmd: preprocess
-  insize=3510 outsize=484 ok=1
-Cmd: preprocess
-  insize=3879 outsize=493 ok=1
-Cmd: preprocess
-  insize=56127 outsize=2695 ok=1
-Cmd: preprocess
-  insize=4757 outsize=486 ok=1
-Cmd: preprocess
-  insize=3452 outsize=425 ok=1
-Cmd: preprocess
-  insize=3821 outsize=435 ok=1
-Cmd: preprocess
-  insize=56069 outsize=2637 ok=1
-Cmd: preprocess
-  insize=4699 outsize=428 ok=1
-Cmd: preprocess
-  insize=3510 outsize=484 ok=1
-Cmd: preprocess
-  insize=3879 outsize=493 ok=1
-Cmd: preprocess
-  insize=56127 outsize=2695 ok=1
-Cmd: preprocess
-  insize=4757 outsize=486 ok=1
-Cmd: preprocess
-  insize=53353 outsize=2692 ok=1
-Cmd: compileSnippet
-  error: 1 plat 4 at (141): implicit truncation of vector type\nCompiling Vertex program with _ADDITIONAL_LIGHTS
+  error: 1 plat 4 at (198): implicit truncation of vector type\nCompiling Vertex program with _ADDITIONAL_LIGHTS
 Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR
   error: 1 plat 4 at Packages/com.unity.render-pipelines.universal/Editor/ShaderGraph/Includes/PBRForwardPass.hlsl(18): Output value 'vert' is not completely initialized\nCompiling Vertex program with _ADDITIONAL_LIGHTS
 Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR
-  api=4 type=0 insize=13910 outsize=2286 kw=_ADDITIONAL_LIGHTS pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR ok=1
+  api=4 type=0 insize=17181 outsize=2194 kw=_ADDITIONAL_LIGHTS pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR ok=1
 Cmd: compileSnippet
-  error: 1 plat 4 at (141): implicit truncation of vector type\nCompiling Fragment program with _ADDITIONAL_LIGHTS
+  error: 1 plat 4 at (198): implicit truncation of vector type\nCompiling Fragment program with _ADDITIONAL_LIGHTS
 Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR
-  api=4 type=1 insize=13910 outsize=4338 kw=_ADDITIONAL_LIGHTS pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR ok=1
-Cmd: preprocess
-  insize=54077 outsize=2693 ok=1
-Cmd: compileSnippet
-  error: 1 plat 4 at Packages/com.unity.render-pipelines.universal/Editor/ShaderGraph/Includes/PBRForwardPass.hlsl(18): Output value 'vert' is not completely initialized\nCompiling Vertex program with _ADDITIONAL_LIGHTS
-Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR
-  api=4 type=0 insize=14350 outsize=2286 kw=_ADDITIONAL_LIGHTS pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR ok=1
-Cmd: compileSnippet
-  api=4 type=1 insize=14350 outsize=4390 kw=_ADDITIONAL_LIGHTS pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR ok=1
-Cmd: preprocess
-  insize=5174 outsize=483 ok=1
-Cmd: preprocess
-  insize=57117 outsize=2694 ok=1
-Cmd: compileSnippet
-  api=4 type=0 insize=8893 outsize=1026 kw=UNITY_PASS_SHADOWCASTER pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR ok=1
-Cmd: compileSnippet
-  error: 1 plat 4 at Packages/com.unity.render-pipelines.universal/Editor/ShaderGraph/Includes/PBRForwardPass.hlsl(18): Output value 'vert' is not completely initialized\nCompiling Vertex program with _ADDITIONAL_LIGHTS
-Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR
-  api=4 type=0 insize=15621 outsize=2286 kw=_ADDITIONAL_LIGHTS pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR ok=1
-Cmd: compileSnippet
-  api=4 type=1 insize=15621 outsize=4606 kw=_ADDITIONAL_LIGHTS pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR ok=1
-Cmd: preprocess
-  insize=5174 outsize=483 ok=1
-Cmd: preprocess
-  insize=57117 outsize=2694 ok=1
-Cmd: preprocess
-  insize=3879 outsize=493 ok=1
-Cmd: preprocess
-  insize=4757 outsize=486 ok=1
-Cmd: preprocess
-  insize=53646 outsize=2708 ok=1
-Cmd: compileSnippet
-  api=4 type=0 insize=8342 outsize=1026 kw=UNITY_PASS_SHADOWCASTER pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR ok=1
-Cmd: compileSnippet
-  error: 1 plat 4 at Packages/com.unity.render-pipelines.universal/Editor/ShaderGraph/Includes/PBRForwardPass.hlsl(18): Output value 'vert' is not completely initialized\nCompiling Vertex program with _MAIN_LIGHT_SHADOWS _ADDITIONAL_LIGHTS_VERTEX
-Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR
-  api=4 type=0 insize=14687 outsize=3414 kw=_MAIN_LIGHT_SHADOWS _ADDITIONAL_LIGHTS_VERTEX pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR ok=1
-Cmd: compileSnippet
-  error: 1 plat 4 at Packages/com.unity.render-pipelines.universal/Editor/ShaderGraph/Includes/PBRForwardPass.hlsl(18): Output value 'vert' is not completely initialized\nCompiling Vertex program with _ADDITIONAL_LIGHTS
-Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR
-  api=4 type=0 insize=14687 outsize=2286 kw=_ADDITIONAL_LIGHTS pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR ok=1
-Cmd: compileSnippet
-  api=4 type=1 insize=14687 outsize=3870 kw=_ADDITIONAL_LIGHTS pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR ok=1
+  api=4 type=1 insize=17181 outsize=4950 kw=_ADDITIONAL_LIGHTS pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR ok=1
 Cmd: preprocess
   insize=811 outsize=209 ok=1
 Cmd: preprocess
@@ -205,65 +121,45 @@ Cmd: preprocess
 Cmd: preprocess
   insize=7640 outsize=647 ok=1
 Cmd: preprocess
-  insize=811 outsize=209 ok=1
+  insize=55551 outsize=3015 ok=1
+Cmd: compileSnippet
+  error: 1 plat 4 at Packages/com.unity.render-pipelines.universal/Editor/ShaderGraph/Includes/PBRForwardPass.hlsl(18): Output value 'vert' is not completely initialized\nCompiling Vertex program with _ADDITIONAL_LIGHTS
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR
+  api=4 type=0 insize=15117 outsize=2194 kw=_ADDITIONAL_LIGHTS pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=15117 outsize=4694 kw=_ADDITIONAL_LIGHTS pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR ok=1
 Cmd: preprocess
-  insize=811 outsize=209 ok=1
+  insize=52549 outsize=3030 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=8465 outsize=1026 kw=UNITY_PASS_SHADOWCASTER pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=8465 outsize=218 kw=UNITY_PASS_SHADOWCASTER pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR ok=1
+Cmd: compileSnippet
+  error: 1 plat 4 at Packages/com.unity.render-pipelines.universal/Editor/ShaderGraph/Includes/PBRForwardPass.hlsl(18): Output value 'vert' is not completely initialized\nCompiling Vertex program with _ADDITIONAL_LIGHTS
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR
+  api=4 type=0 insize=14390 outsize=2194 kw=_ADDITIONAL_LIGHTS pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=14390 outsize=3986 kw=_ADDITIONAL_LIGHTS pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR ok=1
 Cmd: preprocess
-  insize=811 outsize=209 ok=1
+  insize=75024 outsize=3015 ok=1
+Cmd: compileSnippet
+  error: 1 plat 4 at Packages/com.unity.render-pipelines.universal/Editor/ShaderGraph/Includes/PBRForwardPass.hlsl(18): Output value 'vert' is not completely initialized\nCompiling Vertex program with _ADDITIONAL_LIGHTS
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR
+  api=4 type=0 insize=17196 outsize=2194 kw=_ADDITIONAL_LIGHTS pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=17196 outsize=4970 kw=_ADDITIONAL_LIGHTS pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR ok=1
 Cmd: preprocess
-  insize=811 outsize=209 ok=1
-Cmd: preprocess
-  insize=811 outsize=209 ok=1
-Cmd: preprocess
-  insize=811 outsize=209 ok=1
-Cmd: preprocess
-  insize=811 outsize=209 ok=1
-Cmd: preprocess
-  insize=811 outsize=209 ok=1
-Cmd: preprocess
-  insize=3879 outsize=493 ok=1
-Cmd: preprocess
-  insize=4757 outsize=486 ok=1
-Cmd: preprocess
-  insize=4433 outsize=491 ok=1
-Cmd: preprocess
-  insize=57117 outsize=2694 ok=1
-Cmd: preprocess
-  insize=5174 outsize=483 ok=1
-Cmd: preprocess
-  insize=811 outsize=209 ok=1
-Cmd: preprocess
-  insize=811 outsize=209 ok=1
-Cmd: preprocess
-  insize=811 outsize=209 ok=1
-Cmd: preprocess
-  insize=811 outsize=209 ok=1
-Cmd: preprocess
-  insize=811 outsize=209 ok=1
-Cmd: preprocess
-  insize=811 outsize=209 ok=1
-Cmd: preprocess
-  insize=811 outsize=209 ok=1
-Cmd: preprocess
-  insize=811 outsize=209 ok=1
-Cmd: preprocess
-  insize=3879 outsize=493 ok=1
-Cmd: preprocess
-  insize=4757 outsize=486 ok=1
-Cmd: preprocess
-  insize=4433 outsize=491 ok=1
-Cmd: preprocess
-  insize=57117 outsize=2694 ok=1
-Cmd: preprocess
-  insize=5174 outsize=483 ok=1
-Cmd: preprocess
-  insize=5174 outsize=483 ok=1
-Cmd: preprocess
-  insize=57117 outsize=2694 ok=1
-Cmd: preprocess
-  insize=3879 outsize=493 ok=1
-Cmd: preprocess
-  insize=4757 outsize=486 ok=1
+  insize=71173 outsize=3031 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=13199 outsize=1278 kw=UNITY_PASS_SHADOWCASTER pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=13199 outsize=1238 kw=UNITY_PASS_SHADOWCASTER pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR ok=1
+Cmd: compileSnippet
+  error: 1 plat 4 at Packages/com.unity.render-pipelines.universal/Editor/ShaderGraph/Includes/PBRForwardPass.hlsl(18): Output value 'vert' is not completely initialized\nCompiling Vertex program with _ADDITIONAL_LIGHTS
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR
+  api=4 type=0 insize=16352 outsize=2194 kw=_ADDITIONAL_LIGHTS pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=16352 outsize=4322 kw=_ADDITIONAL_LIGHTS pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR ok=1
 Cmd: preprocess
   insize=811 outsize=209 ok=1
 Cmd: preprocess
@@ -281,23 +177,7 @@ Cmd: preprocess
 Cmd: preprocess
   insize=811 outsize=209 ok=1
 Cmd: preprocess
-  insize=3879 outsize=493 ok=1
-Cmd: preprocess
-  insize=4757 outsize=486 ok=1
-Cmd: preprocess
-  insize=4433 outsize=491 ok=1
-Cmd: preprocess
-  insize=57117 outsize=2694 ok=1
-Cmd: preprocess
-  insize=5174 outsize=483 ok=1
-Cmd: preprocess
-  insize=5174 outsize=483 ok=1
-Cmd: preprocess
-  insize=57117 outsize=2694 ok=1
-Cmd: preprocess
-  insize=3879 outsize=493 ok=1
-Cmd: preprocess
-  insize=4757 outsize=486 ok=1
+  insize=811 outsize=209 ok=1
 Cmd: preprocess
   insize=811 outsize=209 ok=1
 Cmd: preprocess
@@ -315,25 +195,51 @@ Cmd: preprocess
 Cmd: preprocess
   insize=811 outsize=209 ok=1
 Cmd: preprocess
-  insize=3879 outsize=493 ok=1
+  insize=7640 outsize=647 ok=1
 Cmd: preprocess
-  insize=4757 outsize=486 ok=1
+  insize=75024 outsize=3015 ok=1
 Cmd: preprocess
-  insize=4433 outsize=491 ok=1
+  insize=5296 outsize=660 ok=1
 Cmd: preprocess
-  insize=57117 outsize=2694 ok=1
+  insize=4611 outsize=658 ok=1
 Cmd: preprocess
-  insize=5174 outsize=483 ok=1
+  insize=3792 outsize=657 ok=1
 Cmd: preprocess
-  insize=5174 outsize=483 ok=1
+  insize=3687 outsize=651 ok=1
 Cmd: preprocess
-  insize=57117 outsize=2694 ok=1
+  insize=4656 outsize=656 ok=1
 Cmd: preprocess
-  insize=3879 outsize=493 ok=1
+  insize=4980 outsize=651 ok=1
 Cmd: preprocess
-  insize=4757 outsize=486 ok=1
+  insize=5500 outsize=648 ok=1
 Cmd: preprocess
-  insize=53646 outsize=2708 ok=1
+  insize=5816 outsize=652 ok=1
+Cmd: preprocess
+  insize=74894 outsize=3015 ok=1
+Cmd: compileSnippet
+  error: 1 plat 4 at Packages/com.unity.render-pipelines.universal/Editor/ShaderGraph/Includes/PBRForwardPass.hlsl(18): Output value 'vert' is not completely initialized\nCompiling Vertex program with _ADDITIONAL_LIGHTS
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR
+  api=4 type=0 insize=17170 outsize=2194 kw=_ADDITIONAL_LIGHTS pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=17170 outsize=4974 kw=_ADDITIONAL_LIGHTS pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR ok=1
+Cmd: preprocess
+  insize=71163 outsize=3031 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=13197 outsize=1278 kw=UNITY_PASS_SHADOWCASTER pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=13197 outsize=1242 kw=UNITY_PASS_SHADOWCASTER pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR ok=1
+Cmd: compileSnippet
+  error: 1 plat 4 at Packages/com.unity.render-pipelines.universal/Editor/ShaderGraph/Includes/PBRForwardPass.hlsl(18): Output value 'vert' is not completely initialized\nCompiling Vertex program with _ADDITIONAL_LIGHTS
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR
+  api=4 type=0 insize=16350 outsize=2194 kw=_ADDITIONAL_LIGHTS pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=16350 outsize=4326 kw=_ADDITIONAL_LIGHTS pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR ok=1
+Cmd: preprocess
+  insize=55551 outsize=3015 ok=1
+Cmd: preprocess
+  insize=52549 outsize=3030 ok=1
+Cmd: preprocess
+  insize=52549 outsize=3030 ok=1
 Cmd: preprocess
   insize=811 outsize=209 ok=1
 Cmd: preprocess
@@ -361,31 +267,27 @@ Cmd: preprocess
 Cmd: preprocess
   insize=5174 outsize=483 ok=1
 Cmd: preprocess
-  insize=5174 outsize=483 ok=1
+  insize=75024 outsize=3015 ok=1
 Cmd: preprocess
-  insize=57117 outsize=2694 ok=1
+  insize=60279 outsize=3014 ok=1
+Cmd: compileSnippet
+  error: 1 plat 4 at Packages/com.unity.render-pipelines.universal/Editor/ShaderGraph/Includes/PBRForwardPass.hlsl(18): Output value 'vert' is not completely initialized\nCompiling Vertex program with _ADDITIONAL_LIGHTS
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR
+  api=4 type=0 insize=17232 outsize=2194 kw=_ADDITIONAL_LIGHTS pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=17232 outsize=4990 kw=_ADDITIONAL_LIGHTS pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR ok=1
 Cmd: preprocess
-  insize=3879 outsize=493 ok=1
-Cmd: preprocess
-  insize=4757 outsize=486 ok=1
-Cmd: preprocess
-  insize=5116 outsize=425 ok=1
-Cmd: preprocess
-  insize=57059 outsize=2635 ok=1
-Cmd: preprocess
-  insize=3821 outsize=435 ok=1
-Cmd: preprocess
-  insize=4699 outsize=428 ok=1
-Cmd: preprocess
-  insize=5174 outsize=483 ok=1
-Cmd: preprocess
-  insize=57117 outsize=2694 ok=1
-Cmd: preprocess
-  insize=3879 outsize=493 ok=1
-Cmd: preprocess
-  insize=4757 outsize=486 ok=1
-Cmd: preprocess
-  insize=53646 outsize=2708 ok=1
+  insize=56895 outsize=3032 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=8465 outsize=1026 kw=UNITY_PASS_SHADOWCASTER pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=8465 outsize=218 kw=UNITY_PASS_SHADOWCASTER pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR ok=1
+Cmd: compileSnippet
+  error: 1 plat 4 at Packages/com.unity.render-pipelines.universal/Editor/ShaderGraph/Includes/PBRForwardPass.hlsl(18): Output value 'vert' is not completely initialized\nCompiling Vertex program with _ADDITIONAL_LIGHTS
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR
+  api=4 type=0 insize=16314 outsize=2194 kw=_ADDITIONAL_LIGHTS pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=16314 outsize=4266 kw=_ADDITIONAL_LIGHTS pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR ok=1
 Cmd: preprocess
   insize=811 outsize=209 ok=1
 Cmd: preprocess
@@ -403,23 +305,7 @@ Cmd: preprocess
 Cmd: preprocess
   insize=811 outsize=209 ok=1
 Cmd: preprocess
-  insize=3879 outsize=493 ok=1
-Cmd: preprocess
-  insize=4757 outsize=486 ok=1
-Cmd: preprocess
-  insize=4433 outsize=491 ok=1
-Cmd: preprocess
-  insize=57117 outsize=2694 ok=1
-Cmd: preprocess
-  insize=5174 outsize=483 ok=1
-Cmd: preprocess
-  insize=5174 outsize=483 ok=1
-Cmd: preprocess
-  insize=57117 outsize=2694 ok=1
-Cmd: preprocess
-  insize=3879 outsize=493 ok=1
-Cmd: preprocess
-  insize=4757 outsize=486 ok=1
+  insize=811 outsize=209 ok=1
 Cmd: preprocess
   insize=811 outsize=209 ok=1
 Cmd: preprocess
@@ -437,57 +323,45 @@ Cmd: preprocess
 Cmd: preprocess
   insize=811 outsize=209 ok=1
 Cmd: preprocess
-  insize=3879 outsize=493 ok=1
+  insize=7640 outsize=647 ok=1
 Cmd: preprocess
-  insize=4757 outsize=486 ok=1
+  insize=60279 outsize=3014 ok=1
 Cmd: preprocess
-  insize=4433 outsize=491 ok=1
+  insize=5296 outsize=660 ok=1
 Cmd: preprocess
-  insize=57117 outsize=2694 ok=1
+  insize=4611 outsize=658 ok=1
 Cmd: preprocess
-  insize=5174 outsize=483 ok=1
+  insize=3792 outsize=657 ok=1
 Cmd: preprocess
-  insize=5174 outsize=483 ok=1
+  insize=3687 outsize=651 ok=1
 Cmd: preprocess
-  insize=57117 outsize=2694 ok=1
+  insize=4656 outsize=656 ok=1
 Cmd: preprocess
-  insize=3879 outsize=493 ok=1
+  insize=4980 outsize=651 ok=1
 Cmd: preprocess
-  insize=4757 outsize=486 ok=1
+  insize=5500 outsize=648 ok=1
 Cmd: preprocess
-  insize=811 outsize=209 ok=1
+  insize=5816 outsize=652 ok=1
 Cmd: preprocess
-  insize=811 outsize=209 ok=1
+  insize=5816 outsize=652 ok=1
 Cmd: preprocess
-  insize=811 outsize=209 ok=1
+  insize=7640 outsize=647 ok=1
 Cmd: preprocess
-  insize=811 outsize=209 ok=1
+  insize=60279 outsize=3014 ok=1
 Cmd: preprocess
-  insize=811 outsize=209 ok=1
+  insize=4980 outsize=651 ok=1
 Cmd: preprocess
-  insize=811 outsize=209 ok=1
+  insize=3687 outsize=651 ok=1
 Cmd: preprocess
-  insize=811 outsize=209 ok=1
+  insize=4611 outsize=658 ok=1
 Cmd: preprocess
-  insize=811 outsize=209 ok=1
+  insize=5296 outsize=660 ok=1
 Cmd: preprocess
-  insize=3879 outsize=493 ok=1
+  insize=5500 outsize=648 ok=1
 Cmd: preprocess
-  insize=4757 outsize=486 ok=1
+  insize=67185 outsize=3014 ok=1
 Cmd: preprocess
-  insize=4433 outsize=491 ok=1
-Cmd: preprocess
-  insize=57117 outsize=2694 ok=1
-Cmd: preprocess
-  insize=5174 outsize=483 ok=1
-Cmd: preprocess
-  insize=5174 outsize=483 ok=1
-Cmd: preprocess
-  insize=57117 outsize=2694 ok=1
-Cmd: preprocess
-  insize=3879 outsize=493 ok=1
-Cmd: preprocess
-  insize=4757 outsize=486 ok=1
+  insize=63907 outsize=3030 ok=1
 Cmd: preprocess
   insize=811 outsize=209 ok=1
 Cmd: preprocess
@@ -505,23 +379,7 @@ Cmd: preprocess
 Cmd: preprocess
   insize=811 outsize=209 ok=1
 Cmd: preprocess
-  insize=3879 outsize=493 ok=1
-Cmd: preprocess
-  insize=4757 outsize=486 ok=1
-Cmd: preprocess
-  insize=4433 outsize=491 ok=1
-Cmd: preprocess
-  insize=57117 outsize=2694 ok=1
-Cmd: preprocess
-  insize=5174 outsize=483 ok=1
-Cmd: preprocess
-  insize=5174 outsize=483 ok=1
-Cmd: preprocess
-  insize=57117 outsize=2694 ok=1
-Cmd: preprocess
-  insize=3879 outsize=493 ok=1
-Cmd: preprocess
-  insize=4757 outsize=486 ok=1
+  insize=811 outsize=209 ok=1
 Cmd: preprocess
   insize=811 outsize=209 ok=1
 Cmd: preprocess
@@ -539,23 +397,41 @@ Cmd: preprocess
 Cmd: preprocess
   insize=811 outsize=209 ok=1
 Cmd: preprocess
-  insize=3879 outsize=493 ok=1
+  insize=7640 outsize=647 ok=1
 Cmd: preprocess
-  insize=4757 outsize=486 ok=1
+  insize=67185 outsize=3014 ok=1
 Cmd: preprocess
-  insize=4433 outsize=491 ok=1
+  insize=5296 outsize=660 ok=1
 Cmd: preprocess
-  insize=57117 outsize=2694 ok=1
+  insize=4611 outsize=658 ok=1
 Cmd: preprocess
-  insize=5174 outsize=483 ok=1
+  insize=3792 outsize=657 ok=1
 Cmd: preprocess
-  insize=5174 outsize=483 ok=1
+  insize=3687 outsize=651 ok=1
 Cmd: preprocess
-  insize=57117 outsize=2694 ok=1
+  insize=4656 outsize=656 ok=1
 Cmd: preprocess
-  insize=3879 outsize=493 ok=1
+  insize=4980 outsize=651 ok=1
 Cmd: preprocess
-  insize=4757 outsize=486 ok=1
+  insize=5500 outsize=648 ok=1
+Cmd: preprocess
+  insize=5816 outsize=652 ok=1
+Cmd: preprocess
+  insize=5816 outsize=652 ok=1
+Cmd: preprocess
+  insize=7640 outsize=647 ok=1
+Cmd: preprocess
+  insize=67185 outsize=3014 ok=1
+Cmd: preprocess
+  insize=4980 outsize=651 ok=1
+Cmd: preprocess
+  insize=3687 outsize=651 ok=1
+Cmd: preprocess
+  insize=4611 outsize=658 ok=1
+Cmd: preprocess
+  insize=5296 outsize=660 ok=1
+Cmd: preprocess
+  insize=5500 outsize=648 ok=1
 Cmd: preprocess
   insize=811 outsize=209 ok=1
 Cmd: preprocess
@@ -607,23 +483,929 @@ Cmd: preprocess
 Cmd: preprocess
   insize=811 outsize=209 ok=1
 Cmd: preprocess
-  insize=3879 outsize=493 ok=1
+  insize=811 outsize=209 ok=1
 Cmd: preprocess
-  insize=4757 outsize=486 ok=1
+  insize=811 outsize=209 ok=1
 Cmd: preprocess
-  insize=4433 outsize=491 ok=1
+  insize=811 outsize=209 ok=1
 Cmd: preprocess
-  insize=57117 outsize=2694 ok=1
+  insize=811 outsize=209 ok=1
 Cmd: preprocess
-  insize=5174 outsize=483 ok=1
+  insize=811 outsize=209 ok=1
 Cmd: preprocess
-  insize=5174 outsize=483 ok=1
+  insize=811 outsize=209 ok=1
 Cmd: preprocess
-  insize=57117 outsize=2694 ok=1
+  insize=811 outsize=209 ok=1
 Cmd: preprocess
-  insize=3879 outsize=493 ok=1
+  insize=811 outsize=209 ok=1
 Cmd: preprocess
-  insize=4757 outsize=486 ok=1
+  insize=811 outsize=209 ok=1
+Cmd: preprocess
+  insize=7640 outsize=647 ok=1
+Cmd: preprocess
+  insize=67185 outsize=3014 ok=1
+Cmd: preprocess
+  insize=5296 outsize=660 ok=1
+Cmd: preprocess
+  insize=4611 outsize=658 ok=1
+Cmd: preprocess
+  insize=3792 outsize=657 ok=1
+Cmd: preprocess
+  insize=3687 outsize=651 ok=1
+Cmd: preprocess
+  insize=4656 outsize=656 ok=1
+Cmd: preprocess
+  insize=4980 outsize=651 ok=1
+Cmd: preprocess
+  insize=5500 outsize=648 ok=1
+Cmd: preprocess
+  insize=5816 outsize=652 ok=1
+Cmd: preprocess
+  insize=811 outsize=209 ok=1
+Cmd: preprocess
+  insize=811 outsize=209 ok=1
+Cmd: preprocess
+  insize=811 outsize=209 ok=1
+Cmd: preprocess
+  insize=811 outsize=209 ok=1
+Cmd: preprocess
+  insize=811 outsize=209 ok=1
+Cmd: preprocess
+  insize=811 outsize=209 ok=1
+Cmd: preprocess
+  insize=811 outsize=209 ok=1
+Cmd: preprocess
+  insize=811 outsize=209 ok=1
+Cmd: preprocess
+  insize=811 outsize=209 ok=1
+Cmd: preprocess
+  insize=811 outsize=209 ok=1
+Cmd: preprocess
+  insize=811 outsize=209 ok=1
+Cmd: preprocess
+  insize=811 outsize=209 ok=1
+Cmd: preprocess
+  insize=6048 outsize=532 ok=1
+Cmd: preprocess
+  insize=5715 outsize=529 ok=1
+Cmd: preprocess
+  insize=66906 outsize=2735 ok=1
+Cmd: preprocess
+  insize=3684 outsize=529 ok=1
+Cmd: preprocess
+  insize=3965 outsize=526 ok=1
+Cmd: preprocess
+  insize=4080 outsize=541 ok=1
+Cmd: preprocess
+  insize=4644 outsize=537 ok=1
+Cmd: preprocess
+  insize=811 outsize=209 ok=1
+Cmd: preprocess
+  insize=3570 outsize=530 ok=1
+Cmd: preprocess
+  insize=811 outsize=209 ok=1
+Cmd: preprocess
+  insize=3546 outsize=530 ok=1
+Cmd: preprocess
+  insize=811 outsize=209 ok=1
+Cmd: preprocess
+  insize=3670 outsize=588 ok=1
+Cmd: preprocess
+  insize=3671 outsize=589 ok=1
+Cmd: preprocess
+  insize=4168 outsize=601 ok=1
+Cmd: preprocess
+  insize=67150 outsize=2795 ok=1
+Cmd: preprocess
+  insize=4732 outsize=595 ok=1
+Cmd: preprocess
+  insize=5803 outsize=587 ok=1
+Cmd: preprocess
+  insize=6136 outsize=592 ok=1
+Cmd: preprocess
+  insize=4053 outsize=585 ok=1
+Cmd: compileSnippet
+  error: 1 plat 4 at (115): 'TransformObjectToWorld': implicit truncation of vector type\nCompiling Vertex program
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR
+  api=4 type=0 insize=4470 outsize=642 kw= pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR ok=1
+Cmd: compileSnippet
+  error: 1 plat 4 at (148): 'TransformObjectToWorld': implicit truncation of vector type\nCompiling Fragment program
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR
+  api=4 type=1 insize=5881 outsize=5294 kw= pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR ok=1
+Cmd: compileSnippet
+  error: 1 plat 4 at Packages/com.unity.render-pipelines.universal/Editor/ShaderGraph/Includes/PBRForwardPass.hlsl(18): Output value 'vert' is not completely initialized\nCompiling Vertex program with _ADDITIONAL_LIGHTS
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR
+  api=4 type=0 insize=17160 outsize=2286 kw=_ADDITIONAL_LIGHTS pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=17160 outsize=9354 kw=_ADDITIONAL_LIGHTS pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR ok=1
+Cmd: preprocess
+  insize=811 outsize=209 ok=1
+Cmd: preprocess
+  insize=811 outsize=209 ok=1
+Cmd: preprocess
+  insize=811 outsize=209 ok=1
+Cmd: preprocess
+  insize=811 outsize=209 ok=1
+Cmd: preprocess
+  insize=811 outsize=209 ok=1
+Cmd: preprocess
+  insize=811 outsize=209 ok=1
+Cmd: preprocess
+  insize=811 outsize=209 ok=1
+Cmd: preprocess
+  insize=811 outsize=209 ok=1
+Cmd: preprocess
+  insize=811 outsize=209 ok=1
+Cmd: preprocess
+  insize=811 outsize=209 ok=1
+Cmd: preprocess
+  insize=811 outsize=209 ok=1
+Cmd: preprocess
+  insize=811 outsize=209 ok=1
+Cmd: preprocess
+  insize=811 outsize=209 ok=1
+Cmd: preprocess
+  insize=811 outsize=209 ok=1
+Cmd: preprocess
+  insize=6136 outsize=592 ok=1
+Cmd: preprocess
+  insize=5803 outsize=587 ok=1
+Cmd: preprocess
+  insize=67150 outsize=2795 ok=1
+Cmd: preprocess
+  insize=3772 outsize=588 ok=1
+Cmd: preprocess
+  insize=4053 outsize=585 ok=1
+Cmd: preprocess
+  insize=4168 outsize=601 ok=1
+Cmd: preprocess
+  insize=4732 outsize=595 ok=1
+Cmd: preprocess
+  insize=3671 outsize=589 ok=1
+Cmd: preprocess
+  insize=3671 outsize=589 ok=1
+Cmd: preprocess
+  insize=4168 outsize=601 ok=1
+Cmd: preprocess
+  insize=67150 outsize=2795 ok=1
+Cmd: preprocess
+  insize=4732 outsize=595 ok=1
+Cmd: preprocess
+  insize=5803 outsize=587 ok=1
+Cmd: preprocess
+  insize=6136 outsize=592 ok=1
+Cmd: preprocess
+  insize=4053 outsize=585 ok=1
+Cmd: preprocess
+  insize=811 outsize=209 ok=1
+Cmd: preprocess
+  insize=811 outsize=209 ok=1
+Cmd: preprocess
+  insize=811 outsize=209 ok=1
+Cmd: preprocess
+  insize=811 outsize=209 ok=1
+Cmd: preprocess
+  insize=811 outsize=209 ok=1
+Cmd: preprocess
+  insize=811 outsize=209 ok=1
+Cmd: preprocess
+  insize=811 outsize=209 ok=1
+Cmd: preprocess
+  insize=811 outsize=209 ok=1
+Cmd: preprocess
+  insize=811 outsize=209 ok=1
+Cmd: preprocess
+  insize=811 outsize=209 ok=1
+Cmd: preprocess
+  insize=811 outsize=209 ok=1
+Cmd: preprocess
+  insize=811 outsize=209 ok=1
+Cmd: preprocess
+  insize=811 outsize=209 ok=1
+Cmd: preprocess
+  insize=811 outsize=209 ok=1
+Cmd: preprocess
+  insize=6136 outsize=592 ok=1
+Cmd: preprocess
+  insize=5803 outsize=587 ok=1
+Cmd: preprocess
+  insize=67150 outsize=2795 ok=1
+Cmd: preprocess
+  insize=3772 outsize=588 ok=1
+Cmd: preprocess
+  insize=4053 outsize=585 ok=1
+Cmd: preprocess
+  insize=4168 outsize=601 ok=1
+Cmd: preprocess
+  insize=4732 outsize=595 ok=1
+Cmd: preprocess
+  insize=3671 outsize=589 ok=1
+Cmd: preprocess
+  insize=3671 outsize=589 ok=1
+Cmd: preprocess
+  insize=4168 outsize=601 ok=1
+Cmd: preprocess
+  insize=67150 outsize=2795 ok=1
+Cmd: preprocess
+  insize=4732 outsize=595 ok=1
+Cmd: preprocess
+  insize=5803 outsize=587 ok=1
+Cmd: preprocess
+  insize=6136 outsize=592 ok=1
+Cmd: preprocess
+  insize=4053 outsize=585 ok=1
+Cmd: preprocess
+  insize=811 outsize=209 ok=1
+Cmd: preprocess
+  insize=811 outsize=209 ok=1
+Cmd: preprocess
+  insize=811 outsize=209 ok=1
+Cmd: preprocess
+  insize=811 outsize=209 ok=1
+Cmd: preprocess
+  insize=811 outsize=209 ok=1
+Cmd: preprocess
+  insize=811 outsize=209 ok=1
+Cmd: preprocess
+  insize=811 outsize=209 ok=1
+Cmd: preprocess
+  insize=811 outsize=209 ok=1
+Cmd: preprocess
+  insize=811 outsize=209 ok=1
+Cmd: preprocess
+  insize=811 outsize=209 ok=1
+Cmd: preprocess
+  insize=811 outsize=209 ok=1
+Cmd: preprocess
+  insize=811 outsize=209 ok=1
+Cmd: preprocess
+  insize=811 outsize=209 ok=1
+Cmd: preprocess
+  insize=811 outsize=209 ok=1
+Cmd: preprocess
+  insize=6136 outsize=592 ok=1
+Cmd: preprocess
+  insize=5803 outsize=587 ok=1
+Cmd: preprocess
+  insize=67150 outsize=2795 ok=1
+Cmd: preprocess
+  insize=3772 outsize=588 ok=1
+Cmd: preprocess
+  insize=4053 outsize=585 ok=1
+Cmd: preprocess
+  insize=4168 outsize=601 ok=1
+Cmd: preprocess
+  insize=4732 outsize=595 ok=1
+Cmd: preprocess
+  insize=3671 outsize=589 ok=1
+Cmd: preprocess
+  insize=3671 outsize=589 ok=1
+Cmd: preprocess
+  insize=4168 outsize=601 ok=1
+Cmd: preprocess
+  insize=67150 outsize=2795 ok=1
+Cmd: preprocess
+  insize=4732 outsize=595 ok=1
+Cmd: preprocess
+  insize=5803 outsize=587 ok=1
+Cmd: preprocess
+  insize=6136 outsize=592 ok=1
+Cmd: preprocess
+  insize=4053 outsize=585 ok=1
+Cmd: preprocess
+  insize=811 outsize=209 ok=1
+Cmd: preprocess
+  insize=811 outsize=209 ok=1
+Cmd: preprocess
+  insize=811 outsize=209 ok=1
+Cmd: preprocess
+  insize=811 outsize=209 ok=1
+Cmd: preprocess
+  insize=811 outsize=209 ok=1
+Cmd: preprocess
+  insize=811 outsize=209 ok=1
+Cmd: preprocess
+  insize=811 outsize=209 ok=1
+Cmd: preprocess
+  insize=811 outsize=209 ok=1
+Cmd: preprocess
+  insize=811 outsize=209 ok=1
+Cmd: preprocess
+  insize=811 outsize=209 ok=1
+Cmd: preprocess
+  insize=811 outsize=209 ok=1
+Cmd: preprocess
+  insize=811 outsize=209 ok=1
+Cmd: preprocess
+  insize=811 outsize=209 ok=1
+Cmd: preprocess
+  insize=811 outsize=209 ok=1
+Cmd: preprocess
+  insize=6136 outsize=592 ok=1
+Cmd: preprocess
+  insize=5803 outsize=587 ok=1
+Cmd: preprocess
+  insize=67150 outsize=2795 ok=1
+Cmd: preprocess
+  insize=3772 outsize=588 ok=1
+Cmd: preprocess
+  insize=4053 outsize=585 ok=1
+Cmd: preprocess
+  insize=4168 outsize=601 ok=1
+Cmd: preprocess
+  insize=4732 outsize=595 ok=1
+Cmd: preprocess
+  insize=3671 outsize=589 ok=1
+Cmd: preprocess
+  insize=3671 outsize=589 ok=1
+Cmd: preprocess
+  insize=4168 outsize=601 ok=1
+Cmd: preprocess
+  insize=67150 outsize=2795 ok=1
+Cmd: preprocess
+  insize=4732 outsize=595 ok=1
+Cmd: preprocess
+  insize=5803 outsize=587 ok=1
+Cmd: preprocess
+  insize=6136 outsize=592 ok=1
+Cmd: preprocess
+  insize=4053 outsize=585 ok=1
+Cmd: preprocess
+  insize=811 outsize=209 ok=1
+Cmd: preprocess
+  insize=811 outsize=209 ok=1
+Cmd: preprocess
+  insize=811 outsize=209 ok=1
+Cmd: preprocess
+  insize=811 outsize=209 ok=1
+Cmd: preprocess
+  insize=811 outsize=209 ok=1
+Cmd: preprocess
+  insize=811 outsize=209 ok=1
+Cmd: preprocess
+  insize=811 outsize=209 ok=1
+Cmd: preprocess
+  insize=811 outsize=209 ok=1
+Cmd: preprocess
+  insize=811 outsize=209 ok=1
+Cmd: preprocess
+  insize=811 outsize=209 ok=1
+Cmd: preprocess
+  insize=811 outsize=209 ok=1
+Cmd: preprocess
+  insize=811 outsize=209 ok=1
+Cmd: preprocess
+  insize=811 outsize=209 ok=1
+Cmd: preprocess
+  insize=811 outsize=209 ok=1
+Cmd: preprocess
+  insize=6136 outsize=592 ok=1
+Cmd: preprocess
+  insize=5803 outsize=587 ok=1
+Cmd: preprocess
+  insize=67150 outsize=2795 ok=1
+Cmd: preprocess
+  insize=3772 outsize=588 ok=1
+Cmd: preprocess
+  insize=4053 outsize=585 ok=1
+Cmd: preprocess
+  insize=4168 outsize=601 ok=1
+Cmd: preprocess
+  insize=4732 outsize=595 ok=1
+Cmd: preprocess
+  insize=3671 outsize=589 ok=1
+Cmd: preprocess
+  insize=3671 outsize=589 ok=1
+Cmd: preprocess
+  insize=4168 outsize=601 ok=1
+Cmd: preprocess
+  insize=67150 outsize=2795 ok=1
+Cmd: preprocess
+  insize=4732 outsize=595 ok=1
+Cmd: preprocess
+  insize=5803 outsize=587 ok=1
+Cmd: preprocess
+  insize=6136 outsize=592 ok=1
+Cmd: preprocess
+  insize=4053 outsize=585 ok=1
+Cmd: preprocess
+  insize=811 outsize=209 ok=1
+Cmd: preprocess
+  insize=811 outsize=209 ok=1
+Cmd: preprocess
+  insize=811 outsize=209 ok=1
+Cmd: preprocess
+  insize=811 outsize=209 ok=1
+Cmd: preprocess
+  insize=811 outsize=209 ok=1
+Cmd: preprocess
+  insize=811 outsize=209 ok=1
+Cmd: preprocess
+  insize=811 outsize=209 ok=1
+Cmd: preprocess
+  insize=811 outsize=209 ok=1
+Cmd: preprocess
+  insize=811 outsize=209 ok=1
+Cmd: preprocess
+  insize=811 outsize=209 ok=1
+Cmd: preprocess
+  insize=811 outsize=209 ok=1
+Cmd: preprocess
+  insize=811 outsize=209 ok=1
+Cmd: preprocess
+  insize=811 outsize=209 ok=1
+Cmd: preprocess
+  insize=811 outsize=209 ok=1
+Cmd: preprocess
+  insize=6136 outsize=592 ok=1
+Cmd: preprocess
+  insize=5803 outsize=587 ok=1
+Cmd: preprocess
+  insize=67150 outsize=2795 ok=1
+Cmd: preprocess
+  insize=3772 outsize=588 ok=1
+Cmd: preprocess
+  insize=4053 outsize=585 ok=1
+Cmd: preprocess
+  insize=4168 outsize=601 ok=1
+Cmd: preprocess
+  insize=4732 outsize=595 ok=1
+Cmd: preprocess
+  insize=3671 outsize=589 ok=1
+Cmd: preprocess
+  insize=3671 outsize=589 ok=1
+Cmd: preprocess
+  insize=4168 outsize=601 ok=1
+Cmd: preprocess
+  insize=67150 outsize=2795 ok=1
+Cmd: preprocess
+  insize=4732 outsize=595 ok=1
+Cmd: preprocess
+  insize=5803 outsize=587 ok=1
+Cmd: preprocess
+  insize=6136 outsize=592 ok=1
+Cmd: preprocess
+  insize=4053 outsize=585 ok=1
+Cmd: preprocess
+  insize=811 outsize=209 ok=1
+Cmd: preprocess
+  insize=811 outsize=209 ok=1
+Cmd: preprocess
+  insize=811 outsize=209 ok=1
+Cmd: preprocess
+  insize=811 outsize=209 ok=1
+Cmd: preprocess
+  insize=811 outsize=209 ok=1
+Cmd: preprocess
+  insize=811 outsize=209 ok=1
+Cmd: preprocess
+  insize=811 outsize=209 ok=1
+Cmd: preprocess
+  insize=811 outsize=209 ok=1
+Cmd: preprocess
+  insize=811 outsize=209 ok=1
+Cmd: preprocess
+  insize=811 outsize=209 ok=1
+Cmd: preprocess
+  insize=811 outsize=209 ok=1
+Cmd: preprocess
+  insize=811 outsize=209 ok=1
+Cmd: preprocess
+  insize=811 outsize=209 ok=1
+Cmd: preprocess
+  insize=811 outsize=209 ok=1
+Cmd: preprocess
+  insize=6136 outsize=592 ok=1
+Cmd: preprocess
+  insize=5803 outsize=587 ok=1
+Cmd: preprocess
+  insize=67150 outsize=2795 ok=1
+Cmd: preprocess
+  insize=3772 outsize=588 ok=1
+Cmd: preprocess
+  insize=4053 outsize=585 ok=1
+Cmd: preprocess
+  insize=4168 outsize=601 ok=1
+Cmd: preprocess
+  insize=4732 outsize=595 ok=1
+Cmd: preprocess
+  insize=3671 outsize=589 ok=1
+Cmd: preprocess
+  insize=3671 outsize=589 ok=1
+Cmd: preprocess
+  insize=4168 outsize=601 ok=1
+Cmd: preprocess
+  insize=67150 outsize=2795 ok=1
+Cmd: preprocess
+  insize=4732 outsize=595 ok=1
+Cmd: preprocess
+  insize=5803 outsize=587 ok=1
+Cmd: preprocess
+  insize=6136 outsize=592 ok=1
+Cmd: preprocess
+  insize=4053 outsize=585 ok=1
+Cmd: preprocess
+  insize=811 outsize=209 ok=1
+Cmd: preprocess
+  insize=811 outsize=209 ok=1
+Cmd: preprocess
+  insize=811 outsize=209 ok=1
+Cmd: preprocess
+  insize=811 outsize=209 ok=1
+Cmd: preprocess
+  insize=811 outsize=209 ok=1
+Cmd: preprocess
+  insize=811 outsize=209 ok=1
+Cmd: preprocess
+  insize=811 outsize=209 ok=1
+Cmd: preprocess
+  insize=811 outsize=209 ok=1
+Cmd: preprocess
+  insize=811 outsize=209 ok=1
+Cmd: preprocess
+  insize=811 outsize=209 ok=1
+Cmd: preprocess
+  insize=811 outsize=209 ok=1
+Cmd: preprocess
+  insize=811 outsize=209 ok=1
+Cmd: preprocess
+  insize=811 outsize=209 ok=1
+Cmd: preprocess
+  insize=811 outsize=209 ok=1
+Cmd: preprocess
+  insize=6136 outsize=592 ok=1
+Cmd: preprocess
+  insize=5803 outsize=587 ok=1
+Cmd: preprocess
+  insize=67150 outsize=2795 ok=1
+Cmd: preprocess
+  insize=3772 outsize=588 ok=1
+Cmd: preprocess
+  insize=4053 outsize=585 ok=1
+Cmd: preprocess
+  insize=4168 outsize=601 ok=1
+Cmd: preprocess
+  insize=4732 outsize=595 ok=1
+Cmd: preprocess
+  insize=3671 outsize=589 ok=1
+Cmd: preprocess
+  insize=3671 outsize=589 ok=1
+Cmd: preprocess
+  insize=4168 outsize=601 ok=1
+Cmd: preprocess
+  insize=67150 outsize=2795 ok=1
+Cmd: preprocess
+  insize=4732 outsize=595 ok=1
+Cmd: preprocess
+  insize=5803 outsize=587 ok=1
+Cmd: preprocess
+  insize=6136 outsize=592 ok=1
+Cmd: preprocess
+  insize=4053 outsize=585 ok=1
+Cmd: preprocess
+  insize=811 outsize=209 ok=1
+Cmd: preprocess
+  insize=811 outsize=209 ok=1
+Cmd: preprocess
+  insize=811 outsize=209 ok=1
+Cmd: preprocess
+  insize=811 outsize=209 ok=1
+Cmd: preprocess
+  insize=811 outsize=209 ok=1
+Cmd: preprocess
+  insize=811 outsize=209 ok=1
+Cmd: preprocess
+  insize=811 outsize=209 ok=1
+Cmd: preprocess
+  insize=811 outsize=209 ok=1
+Cmd: preprocess
+  insize=811 outsize=209 ok=1
+Cmd: preprocess
+  insize=811 outsize=209 ok=1
+Cmd: preprocess
+  insize=811 outsize=209 ok=1
+Cmd: preprocess
+  insize=811 outsize=209 ok=1
+Cmd: preprocess
+  insize=811 outsize=209 ok=1
+Cmd: preprocess
+  insize=811 outsize=209 ok=1
+Cmd: preprocess
+  insize=6136 outsize=592 ok=1
+Cmd: preprocess
+  insize=5803 outsize=587 ok=1
+Cmd: preprocess
+  insize=67150 outsize=2795 ok=1
+Cmd: preprocess
+  insize=3772 outsize=588 ok=1
+Cmd: preprocess
+  insize=4053 outsize=585 ok=1
+Cmd: preprocess
+  insize=4168 outsize=601 ok=1
+Cmd: preprocess
+  insize=4732 outsize=595 ok=1
+Cmd: preprocess
+  insize=3671 outsize=589 ok=1
+Cmd: preprocess
+  insize=3671 outsize=589 ok=1
+Cmd: preprocess
+  insize=4168 outsize=601 ok=1
+Cmd: preprocess
+  insize=67150 outsize=2795 ok=1
+Cmd: preprocess
+  insize=4732 outsize=595 ok=1
+Cmd: preprocess
+  insize=5803 outsize=587 ok=1
+Cmd: preprocess
+  insize=6136 outsize=592 ok=1
+Cmd: preprocess
+  insize=4053 outsize=585 ok=1
+Cmd: preprocess
+  insize=811 outsize=209 ok=1
+Cmd: preprocess
+  insize=811 outsize=209 ok=1
+Cmd: preprocess
+  insize=811 outsize=209 ok=1
+Cmd: preprocess
+  insize=811 outsize=209 ok=1
+Cmd: preprocess
+  insize=811 outsize=209 ok=1
+Cmd: preprocess
+  insize=811 outsize=209 ok=1
+Cmd: preprocess
+  insize=811 outsize=209 ok=1
+Cmd: preprocess
+  insize=811 outsize=209 ok=1
+Cmd: preprocess
+  insize=811 outsize=209 ok=1
+Cmd: preprocess
+  insize=811 outsize=209 ok=1
+Cmd: preprocess
+  insize=811 outsize=209 ok=1
+Cmd: preprocess
+  insize=811 outsize=209 ok=1
+Cmd: preprocess
+  insize=811 outsize=209 ok=1
+Cmd: preprocess
+  insize=811 outsize=209 ok=1
+Cmd: preprocess
+  insize=6136 outsize=592 ok=1
+Cmd: preprocess
+  insize=5803 outsize=587 ok=1
+Cmd: preprocess
+  insize=67150 outsize=2795 ok=1
+Cmd: preprocess
+  insize=3772 outsize=588 ok=1
+Cmd: preprocess
+  insize=4053 outsize=585 ok=1
+Cmd: preprocess
+  insize=4168 outsize=601 ok=1
+Cmd: preprocess
+  insize=4732 outsize=595 ok=1
+Cmd: preprocess
+  insize=3671 outsize=589 ok=1
+Cmd: preprocess
+  insize=3671 outsize=589 ok=1
+Cmd: preprocess
+  insize=4168 outsize=601 ok=1
+Cmd: preprocess
+  insize=67150 outsize=2795 ok=1
+Cmd: preprocess
+  insize=4732 outsize=595 ok=1
+Cmd: preprocess
+  insize=5803 outsize=587 ok=1
+Cmd: preprocess
+  insize=6136 outsize=592 ok=1
+Cmd: preprocess
+  insize=4053 outsize=585 ok=1
+Cmd: preprocess
+  insize=811 outsize=209 ok=1
+Cmd: preprocess
+  insize=811 outsize=209 ok=1
+Cmd: preprocess
+  insize=811 outsize=209 ok=1
+Cmd: preprocess
+  insize=811 outsize=209 ok=1
+Cmd: preprocess
+  insize=811 outsize=209 ok=1
+Cmd: preprocess
+  insize=811 outsize=209 ok=1
+Cmd: preprocess
+  insize=811 outsize=209 ok=1
+Cmd: preprocess
+  insize=811 outsize=209 ok=1
+Cmd: preprocess
+  insize=811 outsize=209 ok=1
+Cmd: preprocess
+  insize=811 outsize=209 ok=1
+Cmd: preprocess
+  insize=811 outsize=209 ok=1
+Cmd: preprocess
+  insize=811 outsize=209 ok=1
+Cmd: preprocess
+  insize=811 outsize=209 ok=1
+Cmd: preprocess
+  insize=811 outsize=209 ok=1
+Cmd: preprocess
+  insize=6136 outsize=592 ok=1
+Cmd: preprocess
+  insize=5803 outsize=587 ok=1
+Cmd: preprocess
+  insize=67150 outsize=2795 ok=1
+Cmd: preprocess
+  insize=3772 outsize=588 ok=1
+Cmd: preprocess
+  insize=4053 outsize=585 ok=1
+Cmd: preprocess
+  insize=4168 outsize=601 ok=1
+Cmd: preprocess
+  insize=4732 outsize=595 ok=1
+Cmd: preprocess
+  insize=3671 outsize=589 ok=1
+Cmd: preprocess
+  insize=3671 outsize=589 ok=1
+Cmd: preprocess
+  insize=4168 outsize=601 ok=1
+Cmd: preprocess
+  insize=67150 outsize=2795 ok=1
+Cmd: preprocess
+  insize=4732 outsize=595 ok=1
+Cmd: preprocess
+  insize=5803 outsize=587 ok=1
+Cmd: preprocess
+  insize=6136 outsize=592 ok=1
+Cmd: preprocess
+  insize=4053 outsize=585 ok=1
+Cmd: preprocess
+  insize=811 outsize=209 ok=1
+Cmd: preprocess
+  insize=811 outsize=209 ok=1
+Cmd: preprocess
+  insize=811 outsize=209 ok=1
+Cmd: preprocess
+  insize=811 outsize=209 ok=1
+Cmd: preprocess
+  insize=811 outsize=209 ok=1
+Cmd: preprocess
+  insize=811 outsize=209 ok=1
+Cmd: preprocess
+  insize=811 outsize=209 ok=1
+Cmd: preprocess
+  insize=811 outsize=209 ok=1
+Cmd: preprocess
+  insize=811 outsize=209 ok=1
+Cmd: preprocess
+  insize=811 outsize=209 ok=1
+Cmd: preprocess
+  insize=811 outsize=209 ok=1
+Cmd: preprocess
+  insize=811 outsize=209 ok=1
+Cmd: preprocess
+  insize=811 outsize=209 ok=1
+Cmd: preprocess
+  insize=811 outsize=209 ok=1
+Cmd: preprocess
+  insize=6136 outsize=592 ok=1
+Cmd: preprocess
+  insize=5803 outsize=587 ok=1
+Cmd: preprocess
+  insize=67150 outsize=2795 ok=1
+Cmd: preprocess
+  insize=3772 outsize=588 ok=1
+Cmd: preprocess
+  insize=4053 outsize=585 ok=1
+Cmd: preprocess
+  insize=4168 outsize=601 ok=1
+Cmd: preprocess
+  insize=4732 outsize=595 ok=1
+Cmd: preprocess
+  insize=3671 outsize=589 ok=1
+Cmd: preprocess
+  insize=3671 outsize=589 ok=1
+Cmd: preprocess
+  insize=4168 outsize=601 ok=1
+Cmd: preprocess
+  insize=67150 outsize=2795 ok=1
+Cmd: preprocess
+  insize=4732 outsize=595 ok=1
+Cmd: preprocess
+  insize=5803 outsize=587 ok=1
+Cmd: preprocess
+  insize=6136 outsize=592 ok=1
+Cmd: preprocess
+  insize=4053 outsize=585 ok=1
+Cmd: preprocess
+  insize=811 outsize=209 ok=1
+Cmd: preprocess
+  insize=811 outsize=209 ok=1
+Cmd: preprocess
+  insize=811 outsize=209 ok=1
+Cmd: preprocess
+  insize=811 outsize=209 ok=1
+Cmd: preprocess
+  insize=811 outsize=209 ok=1
+Cmd: preprocess
+  insize=811 outsize=209 ok=1
+Cmd: preprocess
+  insize=811 outsize=209 ok=1
+Cmd: preprocess
+  insize=811 outsize=209 ok=1
+Cmd: preprocess
+  insize=811 outsize=209 ok=1
+Cmd: preprocess
+  insize=811 outsize=209 ok=1
+Cmd: preprocess
+  insize=811 outsize=209 ok=1
+Cmd: preprocess
+  insize=811 outsize=209 ok=1
+Cmd: preprocess
+  insize=811 outsize=209 ok=1
+Cmd: preprocess
+  insize=811 outsize=209 ok=1
+Cmd: preprocess
+  insize=6136 outsize=592 ok=1
+Cmd: preprocess
+  insize=5803 outsize=587 ok=1
+Cmd: preprocess
+  insize=67150 outsize=2795 ok=1
+Cmd: preprocess
+  insize=3772 outsize=588 ok=1
+Cmd: preprocess
+  insize=4053 outsize=585 ok=1
+Cmd: preprocess
+  insize=4168 outsize=601 ok=1
+Cmd: preprocess
+  insize=4732 outsize=595 ok=1
+Cmd: preprocess
+  insize=3671 outsize=589 ok=1
+Cmd: preprocess
+  insize=3671 outsize=589 ok=1
+Cmd: preprocess
+  insize=4168 outsize=601 ok=1
+Cmd: preprocess
+  insize=67150 outsize=2795 ok=1
+Cmd: preprocess
+  insize=4732 outsize=595 ok=1
+Cmd: preprocess
+  insize=5803 outsize=587 ok=1
+Cmd: preprocess
+  insize=6136 outsize=592 ok=1
+Cmd: preprocess
+  insize=4053 outsize=585 ok=1
+Cmd: preprocess
+  insize=811 outsize=209 ok=1
+Cmd: preprocess
+  insize=811 outsize=209 ok=1
+Cmd: preprocess
+  insize=811 outsize=209 ok=1
+Cmd: preprocess
+  insize=811 outsize=209 ok=1
+Cmd: preprocess
+  insize=811 outsize=209 ok=1
+Cmd: preprocess
+  insize=811 outsize=209 ok=1
+Cmd: preprocess
+  insize=811 outsize=209 ok=1
+Cmd: preprocess
+  insize=811 outsize=209 ok=1
+Cmd: preprocess
+  insize=811 outsize=209 ok=1
+Cmd: preprocess
+  insize=811 outsize=209 ok=1
+Cmd: preprocess
+  insize=811 outsize=209 ok=1
+Cmd: preprocess
+  insize=811 outsize=209 ok=1
+Cmd: preprocess
+  insize=811 outsize=209 ok=1
+Cmd: preprocess
+  insize=811 outsize=209 ok=1
+Cmd: preprocess
+  insize=811 outsize=209 ok=1
+Cmd: preprocess
+  insize=811 outsize=209 ok=1
+Cmd: preprocess
+  insize=811 outsize=209 ok=1
+Cmd: preprocess
+  insize=7640 outsize=647 ok=1
+Cmd: preprocess
+  insize=67185 outsize=3014 ok=1
+Cmd: preprocess
+  insize=5296 outsize=660 ok=1
+Cmd: preprocess
+  insize=4611 outsize=658 ok=1
+Cmd: preprocess
+  insize=3792 outsize=657 ok=1
+Cmd: preprocess
+  insize=3687 outsize=651 ok=1
+Cmd: preprocess
+  insize=4656 outsize=656 ok=1
+Cmd: preprocess
+  insize=4980 outsize=651 ok=1
+Cmd: preprocess
+  insize=5500 outsize=648 ok=1
+Cmd: preprocess
+  insize=5816 outsize=652 ok=1
 Cmd: preprocess
   insize=811 outsize=209 ok=1
 Cmd: preprocess
@@ -651,47 +1433,15 @@ Cmd: preprocess
 Cmd: preprocess
   insize=5174 outsize=483 ok=1
 Cmd: preprocess
-  insize=5174 outsize=483 ok=1
+  insize=5159 outsize=479 ok=1
 Cmd: preprocess
-  insize=57117 outsize=2694 ok=1
+  insize=57077 outsize=2689 ok=1
 Cmd: preprocess
-  insize=3879 outsize=493 ok=1
+  insize=3869 outsize=487 ok=1
 Cmd: preprocess
-  insize=4757 outsize=486 ok=1
-Cmd: preprocess
-  insize=811 outsize=209 ok=1
-Cmd: preprocess
-  insize=811 outsize=209 ok=1
-Cmd: preprocess
-  insize=811 outsize=209 ok=1
-Cmd: preprocess
-  insize=811 outsize=209 ok=1
-Cmd: preprocess
-  insize=811 outsize=209 ok=1
-Cmd: preprocess
-  insize=811 outsize=209 ok=1
-Cmd: preprocess
-  insize=811 outsize=209 ok=1
-Cmd: preprocess
-  insize=811 outsize=209 ok=1
-Cmd: preprocess
-  insize=3879 outsize=493 ok=1
-Cmd: preprocess
-  insize=4757 outsize=486 ok=1
-Cmd: preprocess
-  insize=4433 outsize=491 ok=1
-Cmd: preprocess
-  insize=57117 outsize=2694 ok=1
-Cmd: preprocess
-  insize=5174 outsize=483 ok=1
-Cmd: preprocess
-  insize=5174 outsize=483 ok=1
-Cmd: preprocess
-  insize=57117 outsize=2694 ok=1
-Cmd: preprocess
-  insize=3879 outsize=493 ok=1
-Cmd: preprocess
-  insize=4757 outsize=486 ok=1
+  insize=4747 outsize=481 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=8888 outsize=1026 kw=UNITY_PASS_SHADOWCASTER pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR ok=1
 Cmd: preprocess
   insize=811 outsize=209 ok=1
 Cmd: preprocess
@@ -709,23 +1459,59 @@ Cmd: preprocess
 Cmd: preprocess
   insize=811 outsize=209 ok=1
 Cmd: preprocess
-  insize=3879 outsize=493 ok=1
+  insize=3869 outsize=487 ok=1
 Cmd: preprocess
-  insize=4757 outsize=486 ok=1
+  insize=4747 outsize=481 ok=1
 Cmd: preprocess
-  insize=4433 outsize=491 ok=1
+  insize=4423 outsize=486 ok=1
 Cmd: preprocess
-  insize=57117 outsize=2694 ok=1
+  insize=57077 outsize=2689 ok=1
 Cmd: preprocess
-  insize=5174 outsize=483 ok=1
+  insize=5159 outsize=479 ok=1
 Cmd: preprocess
-  insize=5174 outsize=483 ok=1
+  insize=5159 outsize=479 ok=1
 Cmd: preprocess
-  insize=57117 outsize=2694 ok=1
+  insize=57077 outsize=2689 ok=1
 Cmd: preprocess
-  insize=3879 outsize=493 ok=1
+  insize=3869 outsize=487 ok=1
 Cmd: preprocess
-  insize=4757 outsize=486 ok=1
+  insize=4747 outsize=481 ok=1
+Cmd: preprocess
+  insize=811 outsize=209 ok=1
+Cmd: preprocess
+  insize=811 outsize=209 ok=1
+Cmd: preprocess
+  insize=811 outsize=209 ok=1
+Cmd: preprocess
+  insize=811 outsize=209 ok=1
+Cmd: preprocess
+  insize=811 outsize=209 ok=1
+Cmd: preprocess
+  insize=811 outsize=209 ok=1
+Cmd: preprocess
+  insize=811 outsize=209 ok=1
+Cmd: preprocess
+  insize=811 outsize=209 ok=1
+Cmd: preprocess
+  insize=3869 outsize=487 ok=1
+Cmd: preprocess
+  insize=4747 outsize=481 ok=1
+Cmd: preprocess
+  insize=4423 outsize=486 ok=1
+Cmd: preprocess
+  insize=57077 outsize=2689 ok=1
+Cmd: preprocess
+  insize=5159 outsize=479 ok=1
+Cmd: preprocess
+  insize=5159 outsize=479 ok=1
+Cmd: preprocess
+  insize=57077 outsize=2689 ok=1
+Cmd: preprocess
+  insize=3869 outsize=487 ok=1
+Cmd: preprocess
+  insize=4747 outsize=481 ok=1
+Cmd: preprocess
+  insize=53606 outsize=2704 ok=1
 Cmd: preprocess
   insize=811 outsize=209 ok=1
 Cmd: preprocess
@@ -743,22 +1529,26 @@ Cmd: preprocess
 Cmd: preprocess
   insize=811 outsize=209 ok=1
 Cmd: preprocess
-  insize=3879 outsize=493 ok=1
+  insize=3869 outsize=487 ok=1
 Cmd: preprocess
-  insize=4757 outsize=486 ok=1
+  insize=4747 outsize=481 ok=1
 Cmd: preprocess
-  insize=4433 outsize=491 ok=1
+  insize=4423 outsize=486 ok=1
 Cmd: preprocess
-  insize=57117 outsize=2694 ok=1
+  insize=57077 outsize=2689 ok=1
 Cmd: preprocess
-  insize=5174 outsize=483 ok=1
+  insize=5159 outsize=479 ok=1
 Cmd: preprocess
-  insize=5174 outsize=483 ok=1
+  insize=5159 outsize=479 ok=1
 Cmd: preprocess
-  insize=57117 outsize=2694 ok=1
+  insize=57077 outsize=2689 ok=1
 Cmd: preprocess
-  insize=3879 outsize=493 ok=1
+  insize=3869 outsize=487 ok=1
 Cmd: preprocess
-  insize=4757 outsize=486 ok=1
-
-Quitting shader compiler process
+  insize=4747 outsize=481 ok=1
+Cmd: compileSnippet
+  error: 1 plat 4 at Packages/com.unity.render-pipelines.universal/Editor/ShaderGraph/Includes/PBRForwardPass.hlsl(18): Output value 'vert' is not completely initialized\nCompiling Vertex program with _ADDITIONAL_LIGHTS
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR
+  api=4 type=0 insize=14677 outsize=2286 kw=_ADDITIONAL_LIGHTS pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=14677 outsize=3870 kw=_ADDITIONAL_LIGHTS pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR ok=1
