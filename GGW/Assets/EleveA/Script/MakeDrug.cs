@@ -81,21 +81,17 @@ public class MakeDrug : MonoBehaviour
         {
             case 0:
                 Debug.Log("0a");
+                //Disco
+                SceneManager.LoadScene("Labo");
                 break;
             case 1:
                 Debug.Log("1a");
+                //Ruelle
+                SceneManager.LoadScene("Rue");
                 break;
             case 2:
                 Debug.Log("2a");
-                break;
-            case 3:
-                Debug.Log("3a");
-                break;
-            case 4:
-                Debug.Log("4a");
-                break;
-            case 5:
-                Debug.Log("5a");
+                //Ending
                 break;
             default:
                 Debug.Log("MakeDrugBug");

@@ -5,7 +5,7 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
+  - enabled: 1
     path: Assets/Tom/Scenes/Labo.unity
     guid: da19465b66391664284effc7c5948146
   - enabled: 1

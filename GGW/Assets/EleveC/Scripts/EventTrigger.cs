@@ -20,6 +20,7 @@ public class EventTrigger : MonoBehaviour
     [Header("Exit Setup")]
     [SerializeField] private string nameScene;
     [SerializeField] private float timeBeforeSwitch;
+    [SerializeField] private int changeLabo;
 
     // Start is called before the first frame update
     void Start()
@@ -53,7 +54,9 @@ public class EventTrigger : MonoBehaviour
         if(eventType == EventType.Exit)
         {
             Debug.Log("Exiting to : " + nameScene);
+            StopAllCoroutines();
             StartCoroutine(SwitchScene(collision));
+            IngredientManager.ingredientAvailable = changeLabo;
         }
     }
 
@@ -61,6 +64,7 @@ public class EventTrigger : MonoBehaviour
     {
         collision.GetComponentInChildren<Drug>().needOpen = false;
         collision.GetComponentInChildren<Drug>().needClose = true;
+
         yield return new WaitForSeconds(timeBeforeSwitch);
         SceneManager.LoadScene(nameScene);
     }
