@@ -3,7 +3,12 @@ guid: fd2ada0d25fc0ac45af48af35b7eecce
 ModelImporter:
   serializedVersion: 19300
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: parpaingMat
+    second: {fileID: 2100000, guid: 87a301bdaf0002746af3f3218fc45ac1, type: 2}
   materials:
     materialImportMode: 1
     materialName: 0
