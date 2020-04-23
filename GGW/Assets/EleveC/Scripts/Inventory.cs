@@ -35,7 +35,6 @@ public class Inventory : MonoBehaviour
     void Update()
     {
         RefreshInventory();
-        // SwapItem();
     }
 
     public void PickUp(GameObject toPick)
