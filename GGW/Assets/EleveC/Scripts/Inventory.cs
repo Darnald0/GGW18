@@ -47,6 +47,7 @@ public class Inventory : MonoBehaviour
             handScale = toPick.transform.lossyScale.y;
 
             inHand = toPick;
+            //toPick.transform.position = playerHand.transform.position;
             inHand.transform.rotation = Quaternion.identity;
             StartCoroutine(PickupCooldown());
         }
