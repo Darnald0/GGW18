@@ -50,6 +50,7 @@ public class Drug : MonoBehaviour
             postProcessTrip1.TryGetSettings(out _LensDist);
             _LensDist.intensity.value = 0.4f;
             shaking = true;
+            _VignetteTrip1.intensity.value = vignetteDef;
         }
     }
 
