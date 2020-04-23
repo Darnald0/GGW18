@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class MakeDrug : MonoBehaviour
 {
@@ -22,7 +23,6 @@ public class MakeDrug : MonoBehaviour
     {
         if (ingredientInContainer.Count == 2)
         {
-            Debug.Log(ingredientInContainer.Count);
             Debug.Log(ingredientInContainer[0]);
             Debug.Log(ingredientInContainer[1]);
             if (ingredientInContainer[0] == IngredientA && ingredientInContainer[1] == IngredientB || ingredientInContainer[1] == IngredientA && ingredientInContainer[0] == IngredientB)
