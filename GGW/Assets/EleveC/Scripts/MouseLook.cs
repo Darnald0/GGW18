@@ -101,10 +101,8 @@ public class MouseLook : MonoBehaviour
                     if (selection.CompareTag("IngredientContainer") && gotAnIngredientInHand.tag == selectableTag)
                     {
                         hit.transform.GetComponent<MakeDrug>().AddIngredient(gotAnIngredientInHand);
-                        //gotAnIngredientInHand.GetComponent<Collider>().transform.SetParent(hit.transform);
                         Inventory.instance.PutInContainer(gotAnIngredientInHand);
                         hit.transform.GetComponent<MakeDrug>().CheckContent();
-
                     }
                 }
             }
