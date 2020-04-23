@@ -13,6 +13,8 @@ public class MoveAtoB : MonoBehaviour
     public bool isActive;
 
     private bool alreadyLaunched;
+
+    public bool soundLaunched = false;
     private Material monsterMat;
 
 
@@ -42,6 +44,12 @@ public class MoveAtoB : MonoBehaviour
         monsterMat.SetFloat("isInactive", 1.0f);
 
         transform.position = Vector3.MoveTowards(transform.position, dir, speed * Time.deltaTime);
+
+        if(GetComponent<Sounds>() != null && !soundLaunched)
+        {
+            GetComponent<Sounds>().canSound = true;
+            soundLaunched = true;
+        }
 
         if (!alreadyLaunched)
         {
