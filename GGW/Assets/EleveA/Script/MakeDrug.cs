@@ -10,7 +10,6 @@ public class MakeDrug : MonoBehaviour
     public GameObject IngredientA;
     public GameObject IngredientB;
     public GameObject IngredientC;
-    public GameObject IngredientD;
 
     private int mix;
 
@@ -49,45 +48,9 @@ public class MakeDrug : MonoBehaviour
                 }
                 ChangeTrip();
             }
-            if (ingredientInContainer[0] == IngredientA && ingredientInContainer[1] == IngredientD || ingredientInContainer[1] == IngredientA && ingredientInContainer[0] == IngredientD)
+            if (ingredientInContainer[0] == IngredientB && ingredientInContainer[1] == IngredientC || ingredientInContainer[1] == IngredientB && ingredientInContainer[0] == IngredientC)
             {
-                mix = 2;
-                ingredientInContainer.Clear();
-                for (int i = 0; i < 2; i++)
-                {
-                    GameObject ingredientToSuppr = transform.GetChild(0).gameObject;
-                    ingredientToSuppr.SetActive(true);
-                    ingredientToSuppr.transform.parent = GameObject.FindGameObjectWithTag("PropContainer").transform;
-                }
-                ChangeTrip();
-            }
-            if (ingredientInContainer[0] == IngredientB && ingredientInContainer[1] == IngredientC || ingredientInContainer[1] == IngredientA && ingredientInContainer[0] == IngredientD)
-            {
-                mix = 3;
-                ingredientInContainer.Clear();
-                for (int i = 0; i < 2; i++)
-                {
-                    GameObject ingredientToSuppr = transform.GetChild(0).gameObject;
-                    ingredientToSuppr.SetActive(true);
-                    ingredientToSuppr.transform.parent = GameObject.FindGameObjectWithTag("PropContainer").transform;
-                }
-                ChangeTrip();
-            }
-            if (ingredientInContainer[0] == IngredientB && ingredientInContainer[1] == IngredientD || ingredientInContainer[1] == IngredientA && ingredientInContainer[0] == IngredientD)
-            {
-                mix = 4;
-                ingredientInContainer.Clear();
-                for (int i = 0; i < 2; i++)
-                {
-                    GameObject ingredientToSuppr = transform.GetChild(0).gameObject;
-                    ingredientToSuppr.SetActive(true);
-                    ingredientToSuppr.transform.parent = GameObject.FindGameObjectWithTag("PropContainer").transform;
-                }
-                ChangeTrip();
-            }
-            if (ingredientInContainer[0] == IngredientC && ingredientInContainer[1] == IngredientD || ingredientInContainer[1] == IngredientC && ingredientInContainer[0] == IngredientD)
-            {
-                mix = 5;
+                mix = 1;
                 ingredientInContainer.Clear();
                 for (int i = 0; i < 2; i++)
                 {
