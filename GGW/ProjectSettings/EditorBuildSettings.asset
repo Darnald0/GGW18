@@ -9,6 +9,9 @@ EditorBuildSettings:
     path: Assets/Tom/Scenes/Labo.unity
     guid: da19465b66391664284effc7c5948146
   - enabled: 1
+    path: Assets/Tom/Scenes/Disco.unity
+    guid: 062217a6fe482544f98e7c75fbfced97
+  - enabled: 1
     path: Assets/Tom/Scenes/Rue.unity
     guid: b704322f0d5fee84689b67c829fb14c1
   m_configObjects: {}
