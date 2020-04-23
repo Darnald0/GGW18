@@ -31,7 +31,7 @@ public class SelectionFeedback : MonoBehaviour
     {
         if (isHovered)
         {
-            Debug.Log("HOVER");
+            //Debug.Log("HOVER");
             hoverMat.SetFloat("isHoverBool", 1.0f);
         }
 

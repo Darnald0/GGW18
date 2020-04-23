@@ -95,14 +95,17 @@ public class MouseLook : MonoBehaviour
 
             if (Input.GetMouseButtonDown(0))
             {
-                GameObject gotAnIngredientInHand = playerBody.transform.Find("Hand").transform.GetChild(0).gameObject;
-                if (selection.CompareTag("IngredientContainer") && gotAnIngredientInHand.tag == selectableTag)
+                if (playerBody.GetComponent<Inventory>().inHand != null)
                 {
-                    hit.transform.GetComponent<MakeDrug>().AddIngredient(gotAnIngredientInHand);
-                    //gotAnIngredientInHand.GetComponent<Collider>().transform.SetParent(hit.transform);
-                    Inventory.instance.PutInContainer(gotAnIngredientInHand);
-                    hit.transform.GetComponent<MakeDrug>().CheckContent();
-                    
+                    GameObject gotAnIngredientInHand = playerBody.GetComponent<Inventory>().inHand;
+                    if (selection.CompareTag("IngredientContainer") && gotAnIngredientInHand.tag == selectableTag)
+                    {
+                        hit.transform.GetComponent<MakeDrug>().AddIngredient(gotAnIngredientInHand);
+                        //gotAnIngredientInHand.GetComponent<Collider>().transform.SetParent(hit.transform);
+                        Inventory.instance.PutInContainer(gotAnIngredientInHand);
+                        hit.transform.GetComponent<MakeDrug>().CheckContent();
+
+                    }
                 }
             }
 
