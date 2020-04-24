@@ -3463,7 +3463,6 @@ Canvas:
 --- !u!1001 &1355196084
 PrefabInstance:
   m_ObjectHideFlags: 0
-<<<<<<< HEAD
   serializedVersion: 2
   m_Modification:
     m_TransformParent: {fileID: 0}
@@ -3547,29 +3546,6 @@ PrefabInstance:
   m_SourcePrefab: {fileID: 100100000, guid: fd2ada0d25fc0ac45af48af35b7eecce, type: 3}
 --- !u!1001 &1394653500
 PrefabInstance:
-=======
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1428081018}
-  - component: {fileID: 1428081017}
-  - component: {fileID: 1428081016}
-  - component: {fileID: 1428081015}
-  - component: {fileID: 1428081014}
-  - component: {fileID: 1428081013}
-  - component: {fileID: 1428081019}
-  m_Layer: 0
-  m_Name: Player
-  m_TagString: Player
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1428081013
-MonoBehaviour:
->>>>>>> 6735acc70b81e2adb012b1cca697da7fa0b9774c
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
@@ -3940,7 +3916,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 512
   jumpHeight: 1.5
-  pauseMenu: {fileID: 264165292}
+  pauseMenu: {fileID: 0}
 --- !u!54 &1428081016
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -3994,21 +3970,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1428081019
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1428081012}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3e2945c6d5771b34d8becdbc189fd8a0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  ingredientA: {fileID: 0}
-  ingredientB: {fileID: 0}
-  ingredientC: {fileID: 0}
 --- !u!1 &1510024908
 GameObject:
   m_ObjectHideFlags: 0
