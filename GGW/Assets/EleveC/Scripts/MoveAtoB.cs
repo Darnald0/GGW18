@@ -39,7 +39,7 @@ public class MoveAtoB : MonoBehaviour
 
     void Move()
     {
-        Vector3 dir = (pointB.position - pointA.position).normalized;
+        Vector3 dir = (pointA.position - pointB.position).normalized;
 
         monsterMat.SetFloat("isInactive", 1.0f);
 
