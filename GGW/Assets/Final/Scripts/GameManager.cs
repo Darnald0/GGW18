@@ -9,8 +9,7 @@ public class GameManager : MonoBehaviour
 
     public void StartGame()
     {
-        Debug.Log("A mettre");
-        //SceneManager.LoadScene("");
+        SceneManager.LoadScene("Labo");
     }
     public void QuitGame()
     {
@@ -20,8 +19,7 @@ public class GameManager : MonoBehaviour
 
     public void Menu()
     {
-        Debug.Log("menu");
-        //SceneManager.LoadScene("");
+        SceneManager.LoadScene("Menu");
     }
 
     public void ResumeGame()
