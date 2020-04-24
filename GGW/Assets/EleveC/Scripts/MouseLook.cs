@@ -20,6 +20,7 @@ public class MouseLook : MonoBehaviour
     [Header("Interact Prefs")]
     [SerializeField] private Text interactText;
     [SerializeField] private GameObject interactHud;
+    [SerializeField] private GameObject cursor;
 
     [HideInInspector] public bool visionLock = false;
 
@@ -87,10 +88,16 @@ public class MouseLook : MonoBehaviour
 
                 //--- Pour prendre un objet ---//
 
-                if (Input.GetKeyDown(KeyCode.F))
+                if (Input.GetMouseButtonDown(0))
                 {
                     playerBody.GetComponent<Inventory>().PickUp(selection.gameObject);
                 }
+            }
+            if (selection.CompareTag("IngredientContainer") && playerBody.GetComponent<Inventory>().inHand != null)
+            {
+                selection.GetComponent<SelectionFeedback>().isHovered = true;
+                lastRay = hit;
+                ShowInteractHUD("Put in mix : " + playerBody.GetComponent<Inventory>().inHand.transform.name);
             }
 
             if (Input.GetMouseButtonDown(0))
@@ -130,14 +137,16 @@ public class MouseLook : MonoBehaviour
     {
         if(interactHud != null)
         {
-        interactHud.SetActive(true);
-        interactText.text = text;
+            interactHud.SetActive(true);
+            cursor.SetActive(true);
+            interactText.text = text;
         }
     }
 
     private void HideInteractHUD()
     {
         interactHud.SetActive(false);
+        cursor.SetActive(false);
     }
 
     private bool IsInteractHUDActive()
