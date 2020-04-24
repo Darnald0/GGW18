@@ -6,6 +6,7 @@ using UnityEngine.UI;
 public class SelectionFeedback : MonoBehaviour
 {
     public bool isHovered;
+    //public GameObject cursor;
 
 
     public Vector3 size;
@@ -33,11 +34,13 @@ public class SelectionFeedback : MonoBehaviour
         {
             //Debug.Log("HOVER");
             hoverMat.SetFloat("isHoverBool", 1.0f);
+            //cursor.SetActive(true);
         }
 
         else if (!isHovered)
         {
             hoverMat.SetFloat("isHoverBool", 0.0f);
+            //cursor.SetActive(false);
         }
     }
 }

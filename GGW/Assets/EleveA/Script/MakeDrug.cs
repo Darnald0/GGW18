@@ -11,6 +11,10 @@ public class MakeDrug : MonoBehaviour
     public GameObject IngredientB;
     public GameObject IngredientC;
 
+    public GameObject injection;
+    public GameObject playerBody;
+    public float animLength;
+
     private int mix;
 
     public void AddIngredient(GameObject ingredientToAdd)
@@ -82,12 +86,12 @@ public class MakeDrug : MonoBehaviour
             case 0:
                 Debug.Log("0a");
                 //Disco
-                SceneManager.LoadScene("Labo");
+                StartCoroutine(TripCooldown("Disco"));
                 break;
             case 1:
                 Debug.Log("1a");
                 //Ruelle
-                SceneManager.LoadScene("Rue");
+                StartCoroutine(TripCooldown("Rue"));
                 break;
             case 2:
                 Debug.Log("2a");
@@ -97,5 +101,14 @@ public class MakeDrug : MonoBehaviour
                 Debug.Log("MakeDrugBug");
                 break;
         }
+    }
+
+    IEnumerator TripCooldown(string sceneName)
+    {
+        injection.SetActive(true);
+        yield return new WaitForSeconds(animLength);
+        playerBody.GetComponentInChildren<Drug>().Piqure();
+        yield return new WaitForSeconds(4);
+        SceneManager.LoadScene(sceneName);
     }
 }

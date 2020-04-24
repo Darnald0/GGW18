@@ -96,6 +96,12 @@ public class Drug : MonoBehaviour
         } 
     }
 
+    public void Piqure()
+    {
+        needOpen = false;
+        needClose = true;
+    }
+
     void Trip()
     {
         if (trip2 ||trip1)
