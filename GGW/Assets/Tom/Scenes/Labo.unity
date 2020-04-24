@@ -99,7 +99,7 @@ LightmapSettings:
     m_LightProbeSampleCountMultiplier: 4
   m_LightingDataAsset: {fileID: 112000000, guid: c57ec1a722ae2d64c8e77c1ac390f62a,
     type: 2}
-  m_UseShadowmask: 0
+  m_UseShadowmask: 1
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -1169,7 +1169,7 @@ PrefabInstance:
     - target: {fileID: -4216859302048453862, guid: 23e0319534e9e55448b4bdc2b49149f7,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.376
+      value: 1.4
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 23e0319534e9e55448b4bdc2b49149f7,
         type: 3}
@@ -3173,7 +3173,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 680140444}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 0.26983854, y: 0.26573905, z: 0.49767217}
@@ -3222,7 +3222,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 711049022}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 0.10061786, y: 0.09908928, z: 0.3028412}
@@ -5293,7 +5293,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1090638872}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 0.26, y: 0.40000007, z: 0.57512945}
@@ -5768,7 +5768,7 @@ PrefabInstance:
     - target: {fileID: -4216859302048453862, guid: 075be381ac033a24d8dd6d32a436b018,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.95
+      value: 0.99
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 075be381ac033a24d8dd6d32a436b018,
         type: 3}
@@ -5824,6 +5824,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_TagString
       value: Ingredient
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 075be381ac033a24d8dd6d32a436b018,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 075be381ac033a24d8dd6d32a436b018, type: 3}
@@ -8551,7 +8556,7 @@ PrefabInstance:
     - target: {fileID: -4216859302048453862, guid: 1143b2969358c334aa2a43f6789cf82e,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.1788
+      value: 1.191
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 1143b2969358c334aa2a43f6789cf82e,
         type: 3}
@@ -8607,6 +8612,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_TagString
       value: Ingredient
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 1143b2969358c334aa2a43f6789cf82e,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1143b2969358c334aa2a43f6789cf82e, type: 3}
