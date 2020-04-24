@@ -9,6 +9,8 @@ public class IngredientManager : MonoBehaviour
     public GameObject ingredientB;
     public GameObject ingredientC;
 
+    public GameObject videoCanvas;
+
     void Awake()
     {
         switch (ingredientAvailable)
@@ -18,9 +20,11 @@ public class IngredientManager : MonoBehaviour
                  break;
             case 2:
                 ingredientB.SetActive(false);
+                videoCanvas.SetActive(false);
                 break;
             case 3:
                 ingredientA.SetActive(false);
+                videoCanvas.SetActive(false);
                 break;
             default:
                 Debug.Log("Placement ingredient error");
