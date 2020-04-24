@@ -42,8 +42,17 @@ public class MouseLook : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+            if(playerBody.GetComponent<Ending>() == null)
+            {
             Look();
             LineVision();
+            }
+
+            if(playerBody.GetComponent<Ending>() != null && !playerBody.GetComponent<Ending>().isEnding)
+            {
+            Look();
+            LineVision();
+            }
     }
 
     void Look()

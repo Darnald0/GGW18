@@ -54,7 +54,7 @@ public class MakeDrug : MonoBehaviour
             }
             if (ingredientInContainer[0] == IngredientB && ingredientInContainer[1] == IngredientC || ingredientInContainer[1] == IngredientB && ingredientInContainer[0] == IngredientC)
             {
-                mix = 1;
+                mix = 2;
                 ingredientInContainer.Clear();
                 for (int i = 0; i < 2; i++)
                 {
@@ -95,7 +95,7 @@ public class MakeDrug : MonoBehaviour
                 break;
             case 2:
                 Debug.Log("2a");
-                //Ending
+                StartCoroutine(Ending());
                 break;
             default:
                 Debug.Log("MakeDrugBug");
@@ -110,5 +110,11 @@ public class MakeDrug : MonoBehaviour
         playerBody.GetComponentInChildren<Drug>().Piqure();
         yield return new WaitForSeconds(4);
         SceneManager.LoadScene(sceneName);
+    }
+    IEnumerator Ending()
+    {
+        injection.SetActive(true);
+        yield return new WaitForSeconds(animLength);
+        playerBody.GetComponent<Ending>().isEnding = true;
     }
 }

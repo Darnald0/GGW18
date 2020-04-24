@@ -17,4 +17,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Tom/Scenes/Rue.unity
     guid: b704322f0d5fee84689b67c829fb14c1
+  - enabled: 1
+    path: Assets/Tom/Scenes/Ending.unity
+    guid: 6b6ed05abae15524ba1c061c257b741d
   m_configObjects: {}
