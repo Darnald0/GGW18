@@ -9,6 +9,7 @@ public class EventTrigger : MonoBehaviour
     {
         Anim,
         Sound,
+        Car,
         Exit,
     }
 
@@ -21,6 +22,9 @@ public class EventTrigger : MonoBehaviour
     [SerializeField] private string nameScene;
     [SerializeField] private float timeBeforeSwitch;
     [SerializeField] private int changeLabo;
+
+    [Header("Car Setup")]
+    [SerializeField] private GameObject car;
 
     // Start is called before the first frame update
     void Start()
@@ -57,6 +61,11 @@ public class EventTrigger : MonoBehaviour
             StopAllCoroutines();
             StartCoroutine(SwitchScene(collision));
             IngredientManager.ingredientAvailable = changeLabo;
+        }
+
+        if(eventType == EventType.Car)
+        {
+            car.SetActive(true);
         }
     }
 
